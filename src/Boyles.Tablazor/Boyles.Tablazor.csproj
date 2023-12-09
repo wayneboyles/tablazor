@@ -1,0 +1,32 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Razor">
+
+	<PropertyGroup>
+		<TargetFramework>net8.0</TargetFramework>
+		<Nullable>enable</Nullable>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<AddRazorSupportForMvc>true</AddRazorSupportForMvc>
+		<GenerateEmbeddedFilesManifest>true</GenerateEmbeddedFilesManifest>
+		<AssemblyName>Boyles.Tablazor</AssemblyName>
+		<PackageId>Boyles.Tablazor</PackageId>
+		<RootNamespace>Boyles.Tablazor</RootNamespace>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<FrameworkReference Include="Microsoft.AspNetCore.App" />
+		<PackageReference Include="Microsoft.Extensions.FileProviders.Embedded" Version="8.0.0" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<EmbeddedResource Include="wwwroot\**\*.*" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<Content Remove="wwwroot\**\*.*" />
+		<Content Update="**\*.cshtml" Pack="false" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <Folder Include="Attributes\" />
+	</ItemGroup>
+
+</Project>
