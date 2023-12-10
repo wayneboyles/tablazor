@@ -1,3 +1,11 @@
 # Table of contents
 
-* [Page](README.md)
+* [Introduction](README.md)
+
+## Getting Started
+
+* [Installation](getting-started/installation.md)
+
+## Components
+
+* [Tabler Button](components/tabler-button.md)
