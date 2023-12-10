@@ -1,7 +1,7 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk.Razor">
 
 	<PropertyGroup>
-		<TargetFramework>net8.0</TargetFramework>
+		<TargetFrameworks>net6.0;net7.0;net8.0</TargetFrameworks>
 		<Nullable>enable</Nullable>
 		<ImplicitUsings>enable</ImplicitUsings>
 		<AddRazorSupportForMvc>true</AddRazorSupportForMvc>
@@ -13,7 +13,9 @@
 
 	<ItemGroup>
 		<FrameworkReference Include="Microsoft.AspNetCore.App" />
-		<PackageReference Include="Microsoft.Extensions.FileProviders.Embedded" Version="8.0.0" />
+		<PackageReference Include="Microsoft.Extensions.FileProviders.Embedded" Condition="'$(TargetFramework)' == 'net8.0'" Version="8.0.0" />
+		<PackageReference Include="Microsoft.Extensions.FileProviders.Embedded" Condition="'$(TargetFramework)' == 'net7.0'" Version="7.0.14" />
+		<PackageReference Include="Microsoft.Extensions.FileProviders.Embedded" Condition="'$(TargetFramework)' == 'net6.0'" Version="6.0.25" />
 	</ItemGroup>
 
 	<ItemGroup>
@@ -27,6 +29,11 @@
 
 	<ItemGroup>
 	  <Folder Include="Attributes\" />
+	  <Folder Include="wwwroot\tabler\icons\" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <Service Include="{508349b6-6b84-4df5-91f0-309beebad82d}" />
 	</ItemGroup>
 
 </Project>

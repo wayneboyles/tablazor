@@ -1,19 +1,33 @@
 ﻿@inherits LayoutComponentBase
 
 <div class="page">
-    <div class="sidebar">
-        <NavMenu />
-    </div>
-
-    <main>
-        <div class="top-row px-4">
-            <a href="https://learn.microsoft.com/aspnet/core/" target="_blank">About</a>
+    
+    <header class="navbar navbar-expand-md d-print-none" >
+    
+    </header>
+    
+    <header class="navbar-expand-md">
+    
+    </header>
+    
+    <div class="page-wrapper">
+        <div class="page-header d-print-none">
+            <div class="container-xl">
+                <div class="row g-2 align-items-center">
+                    <div class="col">
+                        <h2 class="page-title">
+                            Empty page
+                        </h2>
+                    </div>
+                </div>
+            </div>
         </div>
-
-        <article class="content px-4">
-            @Body
-        </article>
-    </main>
+        <div class="page-body">
+            <div class="container-xl">
+                @Body
+            </div>
+        </div>
+    </div>
 </div>
 
 <div id="blazor-error-ui">

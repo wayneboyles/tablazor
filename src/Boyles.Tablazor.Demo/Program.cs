@@ -1,3 +1,4 @@
+using Boyles.Tablazor;
 using Boyles.Tablazor.Demo.Components;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -5,6 +6,9 @@ var builder = WebApplication.CreateBuilder(args);
 // Add services to the container.
 builder.Services.AddRazorComponents()
     .AddInteractiveServerComponents();
+
+// Add Tabler
+builder.Services.AddTabler();
 
 var app = builder.Build();
 
