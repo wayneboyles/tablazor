@@ -1,4 +1,5 @@
 using Boyles.Tablazor;
+using Boyles.Tablazor.Configuration;
 using Boyles.Tablazor.Demo.Components;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -8,7 +9,10 @@ builder.Services.AddRazorComponents()
     .AddInteractiveServerComponents();
 
 // Add Tabler
-builder.Services.AddTabler();
+builder.Services.AddTabler(options =>
+{
+    options.Assets.StyleSheets[0].CdnOptions = CdnOptions.UseCdnForBoth;
+});
 
 var app = builder.Build();
 

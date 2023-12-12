@@ -1,0 +1,110 @@
+### YamlMime:ManagedReference
+items:
+- uid: Boyles.Tablazor.Components
+  commentId: N:Boyles.Tablazor.Components
+  id: Boyles.Tablazor.Components
+  children:
+  - Boyles.Tablazor.Components.TablerButton
+  - Boyles.Tablazor.Components.TablerCard
+  - Boyles.Tablazor.Components.TablerCardHeader
+  - Boyles.Tablazor.Components.TablerComponent
+  - Boyles.Tablazor.Components.TablerComponentWithChildContent
+  - Boyles.Tablazor.Components.TablerIcon
+  - Boyles.Tablazor.Components.TablerPageHeader
+  - Boyles.Tablazor.Components.TablerStylesheetImports
+  - Boyles.Tablazor.Components._Imports
+  langs:
+  - csharp
+  - vb
+  name: Boyles.Tablazor.Components
+  nameWithType: Boyles.Tablazor.Components
+  fullName: Boyles.Tablazor.Components
+  type: Namespace
+  assemblies:
+  - Boyles.Tablazor
+references:
+- uid: Boyles.Tablazor.Components.TablerComponent
+  commentId: T:Boyles.Tablazor.Components.TablerComponent
+  parent: Boyles.Tablazor.Components
+  href: Boyles.Tablazor.Components.TablerComponent.html
+  name: TablerComponent
+  nameWithType: TablerComponent
+  fullName: Boyles.Tablazor.Components.TablerComponent
+- uid: Boyles.Tablazor.Components.TablerComponentWithChildContent
+  commentId: T:Boyles.Tablazor.Components.TablerComponentWithChildContent
+  href: Boyles.Tablazor.Components.TablerComponentWithChildContent.html
+  name: TablerComponentWithChildContent
+  nameWithType: TablerComponentWithChildContent
+  fullName: Boyles.Tablazor.Components.TablerComponentWithChildContent
+- uid: Boyles.Tablazor.Components.TablerButton
+  commentId: T:Boyles.Tablazor.Components.TablerButton
+  href: Boyles.Tablazor.Components.TablerButton.html
+  name: TablerButton
+  nameWithType: TablerButton
+  fullName: Boyles.Tablazor.Components.TablerButton
+- uid: Boyles.Tablazor.Components.TablerPageHeader
+  commentId: T:Boyles.Tablazor.Components.TablerPageHeader
+  href: Boyles.Tablazor.Components.TablerPageHeader.html
+  name: TablerPageHeader
+  nameWithType: TablerPageHeader
+  fullName: Boyles.Tablazor.Components.TablerPageHeader
+- uid: Boyles.Tablazor.Components.TablerCardHeader
+  commentId: T:Boyles.Tablazor.Components.TablerCardHeader
+  href: Boyles.Tablazor.Components.TablerCardHeader.html
+  name: TablerCardHeader
+  nameWithType: TablerCardHeader
+  fullName: Boyles.Tablazor.Components.TablerCardHeader
+- uid: Boyles.Tablazor.Components.TablerStylesheetImports
+  commentId: T:Boyles.Tablazor.Components.TablerStylesheetImports
+  href: Boyles.Tablazor.Components.TablerStylesheetImports.html
+  name: TablerStylesheetImports
+  nameWithType: TablerStylesheetImports
+  fullName: Boyles.Tablazor.Components.TablerStylesheetImports
+- uid: Boyles.Tablazor.Components._Imports
+  commentId: T:Boyles.Tablazor.Components._Imports
+  href: Boyles.Tablazor.Components._Imports.html
+  name: _Imports
+  nameWithType: _Imports
+  fullName: Boyles.Tablazor.Components._Imports
+- uid: Boyles.Tablazor.Components.TablerCard
+  commentId: T:Boyles.Tablazor.Components.TablerCard
+  href: Boyles.Tablazor.Components.TablerCard.html
+  name: TablerCard
+  nameWithType: TablerCard
+  fullName: Boyles.Tablazor.Components.TablerCard
+- uid: Boyles.Tablazor.Components.TablerIcon
+  commentId: T:Boyles.Tablazor.Components.TablerIcon
+  href: Boyles.Tablazor.Components.TablerIcon.html
+  name: TablerIcon
+  nameWithType: TablerIcon
+  fullName: Boyles.Tablazor.Components.TablerIcon
+- uid: Boyles.Tablazor.Components
+  commentId: N:Boyles.Tablazor.Components
+  href: Boyles.html
+  name: Boyles.Tablazor.Components
+  nameWithType: Boyles.Tablazor.Components
+  fullName: Boyles.Tablazor.Components
+  spec.csharp:
+  - uid: Boyles
+    name: Boyles
+    href: Boyles.html
+  - name: .
+  - uid: Boyles.Tablazor
+    name: Tablazor
+    href: Boyles.Tablazor.html
+  - name: .
+  - uid: Boyles.Tablazor.Components
+    name: Components
+    href: Boyles.Tablazor.Components.html
+  spec.vb:
+  - uid: Boyles
+    name: Boyles
+    href: Boyles.html
+  - name: .
+  - uid: Boyles.Tablazor
+    name: Tablazor
+    href: Boyles.Tablazor.html
+  - name: .
+  - uid: Boyles.Tablazor.Components
+    name: Components
+    href: Boyles.Tablazor.Components.html

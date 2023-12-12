@@ -9,6 +9,7 @@
 		<AssemblyName>Boyles.Tablazor</AssemblyName>
 		<PackageId>Boyles.Tablazor</PackageId>
 		<RootNamespace>Boyles.Tablazor</RootNamespace>
+		<GenerateDocumentationFile>true</GenerateDocumentationFile>
 	</PropertyGroup>
 
 	<ItemGroup>
@@ -23,13 +24,12 @@
 	</ItemGroup>
 
 	<ItemGroup>
+		<Compile Remove="wwwroot\tabler\icons\**" />
 		<Content Remove="wwwroot\**\*.*" />
+		<Content Remove="wwwroot\tabler\icons\**" />
+		<EmbeddedResource Remove="wwwroot\tabler\icons\**" />
+		<None Remove="wwwroot\tabler\icons\**" />
 		<Content Update="**\*.cshtml" Pack="false" />
-	</ItemGroup>
-
-	<ItemGroup>
-	  <Folder Include="Attributes\" />
-	  <Folder Include="wwwroot\tabler\icons\" />
 	</ItemGroup>
 
 	<ItemGroup>

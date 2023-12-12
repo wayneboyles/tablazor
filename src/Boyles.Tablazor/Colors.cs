@@ -2,6 +2,7 @@
 {
     public enum Colors
     {
+        Default,
         Primary,
         Secondary,
         Success,

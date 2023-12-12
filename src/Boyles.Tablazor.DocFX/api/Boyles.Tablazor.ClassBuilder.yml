@@ -1,0 +1,831 @@
+### YamlMime:ManagedReference
+items:
+- uid: Boyles.Tablazor.ClassBuilder
+  commentId: T:Boyles.Tablazor.ClassBuilder
+  id: ClassBuilder
+  parent: Boyles.Tablazor
+  children:
+  - Boyles.Tablazor.ClassBuilder.Add(Microsoft.AspNetCore.Components.Forms.FieldIdentifier,Microsoft.AspNetCore.Components.Forms.EditContext)
+  - Boyles.Tablazor.ClassBuilder.Add(System.Collections.Generic.IDictionary{System.String,System.Object})
+  - Boyles.Tablazor.ClassBuilder.Add(System.Collections.Generic.IReadOnlyDictionary{System.String,System.Object})
+  - Boyles.Tablazor.ClassBuilder.Add(System.String,System.Boolean)
+  - Boyles.Tablazor.ClassBuilder.AddDisabled(System.Boolean)
+  - Boyles.Tablazor.ClassBuilder.Create(System.String)
+  - Boyles.Tablazor.ClassBuilder.ToString
+  langs:
+  - csharp
+  - vb
+  name: ClassBuilder
+  nameWithType: ClassBuilder
+  fullName: Boyles.Tablazor.ClassBuilder
+  type: Class
+  source:
+    remote:
+      path: src/Boyles.Tablazor/ClassBuilder.cs
+      branch: dev
+      repo: https://github.com/wayneboyles/tablazor.git
+    id: ClassBuilder
+    path: ../Boyles.Tablazor/ClassBuilder.cs
+    startLine: 5
+  assemblies:
+  - Boyles.Tablazor
+  namespace: Boyles.Tablazor
+  syntax:
+    content: public sealed class ClassBuilder
+    content.vb: Public NotInheritable Class ClassBuilder
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+- uid: Boyles.Tablazor.ClassBuilder.Create(System.String)
+  commentId: M:Boyles.Tablazor.ClassBuilder.Create(System.String)
+  id: Create(System.String)
+  parent: Boyles.Tablazor.ClassBuilder
+  langs:
+  - csharp
+  - vb
+  name: Create(string?)
+  nameWithType: ClassBuilder.Create(string?)
+  fullName: Boyles.Tablazor.ClassBuilder.Create(string?)
+  type: Method
+  source:
+    remote:
+      path: src/Boyles.Tablazor/ClassBuilder.cs
+      branch: dev
+      repo: https://github.com/wayneboyles/tablazor.git
+    id: Create
+    path: ../Boyles.Tablazor/ClassBuilder.cs
+    startLine: 14
+  assemblies:
+  - Boyles.Tablazor
+  namespace: Boyles.Tablazor
+  syntax:
+    content: public static ClassBuilder Create(string? className = null)
+    parameters:
+    - id: className
+      type: System.String
+    return:
+      type: Boyles.Tablazor.ClassBuilder
+    content.vb: Public Shared Function Create(className As String = Nothing) As ClassBuilder
+  overload: Boyles.Tablazor.ClassBuilder.Create*
+  nameWithType.vb: ClassBuilder.Create(String)
+  fullName.vb: Boyles.Tablazor.ClassBuilder.Create(String)
+  name.vb: Create(String)
+- uid: Boyles.Tablazor.ClassBuilder.Add(System.String,System.Boolean)
+  commentId: M:Boyles.Tablazor.ClassBuilder.Add(System.String,System.Boolean)
+  id: Add(System.String,System.Boolean)
+  parent: Boyles.Tablazor.ClassBuilder
+  langs:
+  - csharp
+  - vb
+  name: Add(string?, bool)
+  nameWithType: ClassBuilder.Add(string?, bool)
+  fullName: Boyles.Tablazor.ClassBuilder.Add(string?, bool)
+  type: Method
+  source:
+    remote:
+      path: src/Boyles.Tablazor/ClassBuilder.cs
+      branch: dev
+      repo: https://github.com/wayneboyles/tablazor.git
+    id: Add
+    path: ../Boyles.Tablazor/ClassBuilder.cs
+    startLine: 16
+  assemblies:
+  - Boyles.Tablazor
+  namespace: Boyles.Tablazor
+  syntax:
+    content: public ClassBuilder Add(string? className, bool condition = true)
+    parameters:
+    - id: className
+      type: System.String
+    - id: condition
+      type: System.Boolean
+    return:
+      type: Boyles.Tablazor.ClassBuilder
+    content.vb: Public Function Add(className As String, condition As Boolean = True) As ClassBuilder
+  overload: Boyles.Tablazor.ClassBuilder.Add*
+  nameWithType.vb: ClassBuilder.Add(String, Boolean)
+  fullName.vb: Boyles.Tablazor.ClassBuilder.Add(String, Boolean)
+  name.vb: Add(String, Boolean)
+- uid: Boyles.Tablazor.ClassBuilder.Add(System.Collections.Generic.IDictionary{System.String,System.Object})
+  commentId: M:Boyles.Tablazor.ClassBuilder.Add(System.Collections.Generic.IDictionary{System.String,System.Object})
+  id: Add(System.Collections.Generic.IDictionary{System.String,System.Object})
+  parent: Boyles.Tablazor.ClassBuilder
+  langs:
+  - csharp
+  - vb
+  name: Add(IDictionary<string, object>?)
+  nameWithType: ClassBuilder.Add(IDictionary<string, object>?)
+  fullName: Boyles.Tablazor.ClassBuilder.Add(System.Collections.Generic.IDictionary<string, object>?)
+  type: Method
+  source:
+    remote:
+      path: src/Boyles.Tablazor/ClassBuilder.cs
+      branch: dev
+      repo: https://github.com/wayneboyles/tablazor.git
+    id: Add
+    path: ../Boyles.Tablazor/ClassBuilder.cs
+    startLine: 30
+  assemblies:
+  - Boyles.Tablazor
+  namespace: Boyles.Tablazor
+  syntax:
+    content: public ClassBuilder Add(IDictionary<string, object>? attributes = null)
+    parameters:
+    - id: attributes
+      type: System.Collections.Generic.IDictionary{System.String,System.Object}
+    return:
+      type: Boyles.Tablazor.ClassBuilder
+    content.vb: Public Function Add(attributes As IDictionary(Of String, Object) = Nothing) As ClassBuilder
+  overload: Boyles.Tablazor.ClassBuilder.Add*
+  nameWithType.vb: ClassBuilder.Add(IDictionary(Of String, Object))
+  fullName.vb: Boyles.Tablazor.ClassBuilder.Add(System.Collections.Generic.IDictionary(Of String, Object))
+  name.vb: Add(IDictionary(Of String, Object))
+- uid: Boyles.Tablazor.ClassBuilder.Add(System.Collections.Generic.IReadOnlyDictionary{System.String,System.Object})
+  commentId: M:Boyles.Tablazor.ClassBuilder.Add(System.Collections.Generic.IReadOnlyDictionary{System.String,System.Object})
+  id: Add(System.Collections.Generic.IReadOnlyDictionary{System.String,System.Object})
+  parent: Boyles.Tablazor.ClassBuilder
+  langs:
+  - csharp
+  - vb
+  name: Add(IReadOnlyDictionary<string, object>?)
+  nameWithType: ClassBuilder.Add(IReadOnlyDictionary<string, object>?)
+  fullName: Boyles.Tablazor.ClassBuilder.Add(System.Collections.Generic.IReadOnlyDictionary<string, object>?)
+  type: Method
+  source:
+    remote:
+      path: src/Boyles.Tablazor/ClassBuilder.cs
+      branch: dev
+      repo: https://github.com/wayneboyles/tablazor.git
+    id: Add
+    path: ../Boyles.Tablazor/ClassBuilder.cs
+    startLine: 40
+  assemblies:
+  - Boyles.Tablazor
+  namespace: Boyles.Tablazor
+  syntax:
+    content: public ClassBuilder Add(IReadOnlyDictionary<string, object>? attributes)
+    parameters:
+    - id: attributes
+      type: System.Collections.Generic.IReadOnlyDictionary{System.String,System.Object}
+    return:
+      type: Boyles.Tablazor.ClassBuilder
+    content.vb: Public Function Add(attributes As IReadOnlyDictionary(Of String, Object)) As ClassBuilder
+  overload: Boyles.Tablazor.ClassBuilder.Add*
+  nameWithType.vb: ClassBuilder.Add(IReadOnlyDictionary(Of String, Object))
+  fullName.vb: Boyles.Tablazor.ClassBuilder.Add(System.Collections.Generic.IReadOnlyDictionary(Of String, Object))
+  name.vb: Add(IReadOnlyDictionary(Of String, Object))
+- uid: Boyles.Tablazor.ClassBuilder.Add(Microsoft.AspNetCore.Components.Forms.FieldIdentifier,Microsoft.AspNetCore.Components.Forms.EditContext)
+  commentId: M:Boyles.Tablazor.ClassBuilder.Add(Microsoft.AspNetCore.Components.Forms.FieldIdentifier,Microsoft.AspNetCore.Components.Forms.EditContext)
+  id: Add(Microsoft.AspNetCore.Components.Forms.FieldIdentifier,Microsoft.AspNetCore.Components.Forms.EditContext)
+  parent: Boyles.Tablazor.ClassBuilder
+  langs:
+  - csharp
+  - vb
+  name: Add(FieldIdentifier, EditContext)
+  nameWithType: ClassBuilder.Add(FieldIdentifier, EditContext)
+  fullName: Boyles.Tablazor.ClassBuilder.Add(Microsoft.AspNetCore.Components.Forms.FieldIdentifier, Microsoft.AspNetCore.Components.Forms.EditContext)
+  type: Method
+  source:
+    remote:
+      path: src/Boyles.Tablazor/ClassBuilder.cs
+      branch: dev
+      repo: https://github.com/wayneboyles/tablazor.git
+    id: Add
+    path: ../Boyles.Tablazor/ClassBuilder.cs
+    startLine: 50
+  assemblies:
+  - Boyles.Tablazor
+  namespace: Boyles.Tablazor
+  syntax:
+    content: public ClassBuilder Add(FieldIdentifier field, EditContext context)
+    parameters:
+    - id: field
+      type: Microsoft.AspNetCore.Components.Forms.FieldIdentifier
+    - id: context
+      type: Microsoft.AspNetCore.Components.Forms.EditContext
+    return:
+      type: Boyles.Tablazor.ClassBuilder
+    content.vb: Public Function Add(field As FieldIdentifier, context As EditContext) As ClassBuilder
+  overload: Boyles.Tablazor.ClassBuilder.Add*
+- uid: Boyles.Tablazor.ClassBuilder.AddDisabled(System.Boolean)
+  commentId: M:Boyles.Tablazor.ClassBuilder.AddDisabled(System.Boolean)
+  id: AddDisabled(System.Boolean)
+  parent: Boyles.Tablazor.ClassBuilder
+  langs:
+  - csharp
+  - vb
+  name: AddDisabled(bool)
+  nameWithType: ClassBuilder.AddDisabled(bool)
+  fullName: Boyles.Tablazor.ClassBuilder.AddDisabled(bool)
+  type: Method
+  source:
+    remote:
+      path: src/Boyles.Tablazor/ClassBuilder.cs
+      branch: dev
+      repo: https://github.com/wayneboyles/tablazor.git
+    id: AddDisabled
+    path: ../Boyles.Tablazor/ClassBuilder.cs
+    startLine: 55
+  assemblies:
+  - Boyles.Tablazor
+  namespace: Boyles.Tablazor
+  syntax:
+    content: public ClassBuilder AddDisabled(bool condition = true)
+    parameters:
+    - id: condition
+      type: System.Boolean
+    return:
+      type: Boyles.Tablazor.ClassBuilder
+    content.vb: Public Function AddDisabled(condition As Boolean = True) As ClassBuilder
+  overload: Boyles.Tablazor.ClassBuilder.AddDisabled*
+  nameWithType.vb: ClassBuilder.AddDisabled(Boolean)
+  fullName.vb: Boyles.Tablazor.ClassBuilder.AddDisabled(Boolean)
+  name.vb: AddDisabled(Boolean)
+- uid: Boyles.Tablazor.ClassBuilder.ToString
+  commentId: M:Boyles.Tablazor.ClassBuilder.ToString
+  id: ToString
+  parent: Boyles.Tablazor.ClassBuilder
+  langs:
+  - csharp
+  - vb
+  name: ToString()
+  nameWithType: ClassBuilder.ToString()
+  fullName: Boyles.Tablazor.ClassBuilder.ToString()
+  type: Method
+  source:
+    remote:
+      path: src/Boyles.Tablazor/ClassBuilder.cs
+      branch: dev
+      repo: https://github.com/wayneboyles/tablazor.git
+    id: ToString
+    path: ../Boyles.Tablazor/ClassBuilder.cs
+    startLine: 60
+  assemblies:
+  - Boyles.Tablazor
+  namespace: Boyles.Tablazor
+  summary: Returns a string that represents the current object.
+  example: []
+  syntax:
+    content: public override string ToString()
+    return:
+      type: System.String
+      description: A string that represents the current object.
+    content.vb: Public Overrides Function ToString() As String
+  overridden: System.Object.ToString
+  overload: Boyles.Tablazor.ClassBuilder.ToString*
+references:
+- uid: Boyles.Tablazor
+  commentId: N:Boyles.Tablazor
+  href: Boyles.html
+  name: Boyles.Tablazor
+  nameWithType: Boyles.Tablazor
+  fullName: Boyles.Tablazor
+  spec.csharp:
+  - uid: Boyles
+    name: Boyles
+    href: Boyles.html
+  - name: .
+  - uid: Boyles.Tablazor
+    name: Tablazor
+    href: Boyles.Tablazor.html
+  spec.vb:
+  - uid: Boyles
+    name: Boyles
+    href: Boyles.html
+  - name: .
+  - uid: Boyles.Tablazor
+    name: Tablazor
+    href: Boyles.Tablazor.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Boyles.Tablazor.ClassBuilder.Create*
+  commentId: Overload:Boyles.Tablazor.ClassBuilder.Create
+  href: Boyles.Tablazor.ClassBuilder.html#Boyles_Tablazor_ClassBuilder_Create_System_String_
+  name: Create
+  nameWithType: ClassBuilder.Create
+  fullName: Boyles.Tablazor.ClassBuilder.Create
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: Boyles.Tablazor.ClassBuilder
+  commentId: T:Boyles.Tablazor.ClassBuilder
+  parent: Boyles.Tablazor
+  href: Boyles.Tablazor.ClassBuilder.html
+  name: ClassBuilder
+  nameWithType: ClassBuilder
+  fullName: Boyles.Tablazor.ClassBuilder
+- uid: Boyles.Tablazor.ClassBuilder.Add*
+  commentId: Overload:Boyles.Tablazor.ClassBuilder.Add
+  href: Boyles.Tablazor.ClassBuilder.html#Boyles_Tablazor_ClassBuilder_Add_System_String_System_Boolean_
+  name: Add
+  nameWithType: ClassBuilder.Add
+  fullName: Boyles.Tablazor.ClassBuilder.Add
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: System.Collections.Generic.IDictionary{System.String,System.Object}
+  commentId: T:System.Collections.Generic.IDictionary{System.String,System.Object}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IDictionary`2
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.idictionary-2
+  name: IDictionary<string, object>
+  nameWithType: IDictionary<string, object>
+  fullName: System.Collections.Generic.IDictionary<string, object>
+  nameWithType.vb: IDictionary(Of String, Object)
+  fullName.vb: System.Collections.Generic.IDictionary(Of String, Object)
+  name.vb: IDictionary(Of String, Object)
+  spec.csharp:
+  - uid: System.Collections.Generic.IDictionary`2
+    name: IDictionary
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.idictionary-2
+  - name: <
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IDictionary`2
+    name: IDictionary
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.idictionary-2
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Collections.Generic.IDictionary`2
+  commentId: T:System.Collections.Generic.IDictionary`2
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.idictionary-2
+  name: IDictionary<TKey, TValue>
+  nameWithType: IDictionary<TKey, TValue>
+  fullName: System.Collections.Generic.IDictionary<TKey, TValue>
+  nameWithType.vb: IDictionary(Of TKey, TValue)
+  fullName.vb: System.Collections.Generic.IDictionary(Of TKey, TValue)
+  name.vb: IDictionary(Of TKey, TValue)
+  spec.csharp:
+  - uid: System.Collections.Generic.IDictionary`2
+    name: IDictionary
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.idictionary-2
+  - name: <
+  - name: TKey
+  - name: ','
+  - name: " "
+  - name: TValue
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IDictionary`2
+    name: IDictionary
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.idictionary-2
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TKey
+  - name: ','
+  - name: " "
+  - name: TValue
+  - name: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+- uid: System.Collections.Generic.IReadOnlyDictionary{System.String,System.Object}
+  commentId: T:System.Collections.Generic.IReadOnlyDictionary{System.String,System.Object}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IReadOnlyDictionary`2
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlydictionary-2
+  name: IReadOnlyDictionary<string, object>
+  nameWithType: IReadOnlyDictionary<string, object>
+  fullName: System.Collections.Generic.IReadOnlyDictionary<string, object>
+  nameWithType.vb: IReadOnlyDictionary(Of String, Object)
+  fullName.vb: System.Collections.Generic.IReadOnlyDictionary(Of String, Object)
+  name.vb: IReadOnlyDictionary(Of String, Object)
+  spec.csharp:
+  - uid: System.Collections.Generic.IReadOnlyDictionary`2
+    name: IReadOnlyDictionary
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlydictionary-2
+  - name: <
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IReadOnlyDictionary`2
+    name: IReadOnlyDictionary
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlydictionary-2
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Collections.Generic.IReadOnlyDictionary`2
+  commentId: T:System.Collections.Generic.IReadOnlyDictionary`2
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlydictionary-2
+  name: IReadOnlyDictionary<TKey, TValue>
+  nameWithType: IReadOnlyDictionary<TKey, TValue>
+  fullName: System.Collections.Generic.IReadOnlyDictionary<TKey, TValue>
+  nameWithType.vb: IReadOnlyDictionary(Of TKey, TValue)
+  fullName.vb: System.Collections.Generic.IReadOnlyDictionary(Of TKey, TValue)
+  name.vb: IReadOnlyDictionary(Of TKey, TValue)
+  spec.csharp:
+  - uid: System.Collections.Generic.IReadOnlyDictionary`2
+    name: IReadOnlyDictionary
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlydictionary-2
+  - name: <
+  - name: TKey
+  - name: ','
+  - name: " "
+  - name: TValue
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IReadOnlyDictionary`2
+    name: IReadOnlyDictionary
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlydictionary-2
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TKey
+  - name: ','
+  - name: " "
+  - name: TValue
+  - name: )
+- uid: Microsoft.AspNetCore.Components.Forms.FieldIdentifier
+  commentId: T:Microsoft.AspNetCore.Components.Forms.FieldIdentifier
+  parent: Microsoft.AspNetCore.Components.Forms
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/microsoft.aspnetcore.components.forms.fieldidentifier
+  name: FieldIdentifier
+  nameWithType: FieldIdentifier
+  fullName: Microsoft.AspNetCore.Components.Forms.FieldIdentifier
+- uid: Microsoft.AspNetCore.Components.Forms.EditContext
+  commentId: T:Microsoft.AspNetCore.Components.Forms.EditContext
+  parent: Microsoft.AspNetCore.Components.Forms
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/microsoft.aspnetcore.components.forms.editcontext
+  name: EditContext
+  nameWithType: EditContext
+  fullName: Microsoft.AspNetCore.Components.Forms.EditContext
+- uid: Microsoft.AspNetCore.Components.Forms
+  commentId: N:Microsoft.AspNetCore.Components.Forms
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/microsoft
+  name: Microsoft.AspNetCore.Components.Forms
+  nameWithType: Microsoft.AspNetCore.Components.Forms
+  fullName: Microsoft.AspNetCore.Components.Forms
+  spec.csharp:
+  - uid: Microsoft
+    name: Microsoft
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft
+  - name: .
+  - uid: Microsoft.AspNetCore
+    name: AspNetCore
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.aspnetcore
+  - name: .
+  - uid: Microsoft.AspNetCore.Components
+    name: Components
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.aspnetcore.components
+  - name: .
+  - uid: Microsoft.AspNetCore.Components.Forms
+    name: Forms
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.aspnetcore.components.forms
+  spec.vb:
+  - uid: Microsoft
+    name: Microsoft
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft
+  - name: .
+  - uid: Microsoft.AspNetCore
+    name: AspNetCore
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.aspnetcore
+  - name: .
+  - uid: Microsoft.AspNetCore.Components
+    name: Components
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.aspnetcore.components
+  - name: .
+  - uid: Microsoft.AspNetCore.Components.Forms
+    name: Forms
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.aspnetcore.components.forms
+- uid: Boyles.Tablazor.ClassBuilder.AddDisabled*
+  commentId: Overload:Boyles.Tablazor.ClassBuilder.AddDisabled
+  href: Boyles.Tablazor.ClassBuilder.html#Boyles_Tablazor_ClassBuilder_AddDisabled_System_Boolean_
+  name: AddDisabled
+  nameWithType: ClassBuilder.AddDisabled
+  fullName: Boyles.Tablazor.ClassBuilder.AddDisabled
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: Boyles.Tablazor.ClassBuilder.ToString*
+  commentId: Overload:Boyles.Tablazor.ClassBuilder.ToString
+  href: Boyles.Tablazor.ClassBuilder.html#Boyles_Tablazor_ClassBuilder_ToString
+  name: ToString
+  nameWithType: ClassBuilder.ToString
+  fullName: Boyles.Tablazor.ClassBuilder.ToString

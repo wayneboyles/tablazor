@@ -1,0 +1,625 @@
+### YamlMime:ManagedReference
+items:
+- uid: Boyles.Tablazor.Colors
+  commentId: T:Boyles.Tablazor.Colors
+  id: Colors
+  parent: Boyles.Tablazor
+  children:
+  - Boyles.Tablazor.Colors.Azure
+  - Boyles.Tablazor.Colors.Blue
+  - Boyles.Tablazor.Colors.Cyan
+  - Boyles.Tablazor.Colors.Danger
+  - Boyles.Tablazor.Colors.Dark
+  - Boyles.Tablazor.Colors.Default
+  - Boyles.Tablazor.Colors.Green
+  - Boyles.Tablazor.Colors.Indigo
+  - Boyles.Tablazor.Colors.Info
+  - Boyles.Tablazor.Colors.Light
+  - Boyles.Tablazor.Colors.Lime
+  - Boyles.Tablazor.Colors.Orange
+  - Boyles.Tablazor.Colors.Pink
+  - Boyles.Tablazor.Colors.Primary
+  - Boyles.Tablazor.Colors.Purple
+  - Boyles.Tablazor.Colors.Red
+  - Boyles.Tablazor.Colors.Secondary
+  - Boyles.Tablazor.Colors.Success
+  - Boyles.Tablazor.Colors.Teal
+  - Boyles.Tablazor.Colors.Warning
+  - Boyles.Tablazor.Colors.Yellow
+  langs:
+  - csharp
+  - vb
+  name: Colors
+  nameWithType: Colors
+  fullName: Boyles.Tablazor.Colors
+  type: Enum
+  source:
+    remote:
+      path: src/Boyles.Tablazor/Colors.cs
+      branch: dev
+      repo: https://github.com/wayneboyles/tablazor.git
+    id: Colors
+    path: ../Boyles.Tablazor/Colors.cs
+    startLine: 2
+  assemblies:
+  - Boyles.Tablazor
+  namespace: Boyles.Tablazor
+  syntax:
+    content: public enum Colors
+    content.vb: Public Enum Colors
+- uid: Boyles.Tablazor.Colors.Default
+  commentId: F:Boyles.Tablazor.Colors.Default
+  id: Default
+  parent: Boyles.Tablazor.Colors
+  langs:
+  - csharp
+  - vb
+  name: Default
+  nameWithType: Colors.Default
+  fullName: Boyles.Tablazor.Colors.Default
+  type: Field
+  source:
+    remote:
+      path: src/Boyles.Tablazor/Colors.cs
+      branch: dev
+      repo: https://github.com/wayneboyles/tablazor.git
+    id: Default
+    path: ../Boyles.Tablazor/Colors.cs
+    startLine: 4
+  assemblies:
+  - Boyles.Tablazor
+  namespace: Boyles.Tablazor
+  syntax:
+    content: Default = 0
+    return:
+      type: Boyles.Tablazor.Colors
+- uid: Boyles.Tablazor.Colors.Primary
+  commentId: F:Boyles.Tablazor.Colors.Primary
+  id: Primary
+  parent: Boyles.Tablazor.Colors
+  langs:
+  - csharp
+  - vb
+  name: Primary
+  nameWithType: Colors.Primary
+  fullName: Boyles.Tablazor.Colors.Primary
+  type: Field
+  source:
+    remote:
+      path: src/Boyles.Tablazor/Colors.cs
+      branch: dev
+      repo: https://github.com/wayneboyles/tablazor.git
+    id: Primary
+    path: ../Boyles.Tablazor/Colors.cs
+    startLine: 5
+  assemblies:
+  - Boyles.Tablazor
+  namespace: Boyles.Tablazor
+  syntax:
+    content: Primary = 1
+    return:
+      type: Boyles.Tablazor.Colors
+- uid: Boyles.Tablazor.Colors.Secondary
+  commentId: F:Boyles.Tablazor.Colors.Secondary
+  id: Secondary
+  parent: Boyles.Tablazor.Colors
+  langs:
+  - csharp
+  - vb
+  name: Secondary
+  nameWithType: Colors.Secondary
+  fullName: Boyles.Tablazor.Colors.Secondary
+  type: Field
+  source:
+    remote:
+      path: src/Boyles.Tablazor/Colors.cs
+      branch: dev
+      repo: https://github.com/wayneboyles/tablazor.git
+    id: Secondary
+    path: ../Boyles.Tablazor/Colors.cs
+    startLine: 6
+  assemblies:
+  - Boyles.Tablazor
+  namespace: Boyles.Tablazor
+  syntax:
+    content: Secondary = 2
+    return:
+      type: Boyles.Tablazor.Colors
+- uid: Boyles.Tablazor.Colors.Success
+  commentId: F:Boyles.Tablazor.Colors.Success
+  id: Success
+  parent: Boyles.Tablazor.Colors
+  langs:
+  - csharp
+  - vb
+  name: Success
+  nameWithType: Colors.Success
+  fullName: Boyles.Tablazor.Colors.Success
+  type: Field
+  source:
+    remote:
+      path: src/Boyles.Tablazor/Colors.cs
+      branch: dev
+      repo: https://github.com/wayneboyles/tablazor.git
+    id: Success
+    path: ../Boyles.Tablazor/Colors.cs
+    startLine: 7
+  assemblies:
+  - Boyles.Tablazor
+  namespace: Boyles.Tablazor
+  syntax:
+    content: Success = 3
+    return:
+      type: Boyles.Tablazor.Colors
+- uid: Boyles.Tablazor.Colors.Warning
+  commentId: F:Boyles.Tablazor.Colors.Warning
+  id: Warning
+  parent: Boyles.Tablazor.Colors
+  langs:
+  - csharp
+  - vb
+  name: Warning
+  nameWithType: Colors.Warning
+  fullName: Boyles.Tablazor.Colors.Warning
+  type: Field
+  source:
+    remote:
+      path: src/Boyles.Tablazor/Colors.cs
+      branch: dev
+      repo: https://github.com/wayneboyles/tablazor.git
+    id: Warning
+    path: ../Boyles.Tablazor/Colors.cs
+    startLine: 8
+  assemblies:
+  - Boyles.Tablazor
+  namespace: Boyles.Tablazor
+  syntax:
+    content: Warning = 4
+    return:
+      type: Boyles.Tablazor.Colors
+- uid: Boyles.Tablazor.Colors.Danger
+  commentId: F:Boyles.Tablazor.Colors.Danger
+  id: Danger
+  parent: Boyles.Tablazor.Colors
+  langs:
+  - csharp
+  - vb
+  name: Danger
+  nameWithType: Colors.Danger
+  fullName: Boyles.Tablazor.Colors.Danger
+  type: Field
+  source:
+    remote:
+      path: src/Boyles.Tablazor/Colors.cs
+      branch: dev
+      repo: https://github.com/wayneboyles/tablazor.git
+    id: Danger
+    path: ../Boyles.Tablazor/Colors.cs
+    startLine: 9
+  assemblies:
+  - Boyles.Tablazor
+  namespace: Boyles.Tablazor
+  syntax:
+    content: Danger = 5
+    return:
+      type: Boyles.Tablazor.Colors
+- uid: Boyles.Tablazor.Colors.Info
+  commentId: F:Boyles.Tablazor.Colors.Info
+  id: Info
+  parent: Boyles.Tablazor.Colors
+  langs:
+  - csharp
+  - vb
+  name: Info
+  nameWithType: Colors.Info
+  fullName: Boyles.Tablazor.Colors.Info
+  type: Field
+  source:
+    remote:
+      path: src/Boyles.Tablazor/Colors.cs
+      branch: dev
+      repo: https://github.com/wayneboyles/tablazor.git
+    id: Info
+    path: ../Boyles.Tablazor/Colors.cs
+    startLine: 10
+  assemblies:
+  - Boyles.Tablazor
+  namespace: Boyles.Tablazor
+  syntax:
+    content: Info = 6
+    return:
+      type: Boyles.Tablazor.Colors
+- uid: Boyles.Tablazor.Colors.Light
+  commentId: F:Boyles.Tablazor.Colors.Light
+  id: Light
+  parent: Boyles.Tablazor.Colors
+  langs:
+  - csharp
+  - vb
+  name: Light
+  nameWithType: Colors.Light
+  fullName: Boyles.Tablazor.Colors.Light
+  type: Field
+  source:
+    remote:
+      path: src/Boyles.Tablazor/Colors.cs
+      branch: dev
+      repo: https://github.com/wayneboyles/tablazor.git
+    id: Light
+    path: ../Boyles.Tablazor/Colors.cs
+    startLine: 11
+  assemblies:
+  - Boyles.Tablazor
+  namespace: Boyles.Tablazor
+  syntax:
+    content: Light = 7
+    return:
+      type: Boyles.Tablazor.Colors
+- uid: Boyles.Tablazor.Colors.Dark
+  commentId: F:Boyles.Tablazor.Colors.Dark
+  id: Dark
+  parent: Boyles.Tablazor.Colors
+  langs:
+  - csharp
+  - vb
+  name: Dark
+  nameWithType: Colors.Dark
+  fullName: Boyles.Tablazor.Colors.Dark
+  type: Field
+  source:
+    remote:
+      path: src/Boyles.Tablazor/Colors.cs
+      branch: dev
+      repo: https://github.com/wayneboyles/tablazor.git
+    id: Dark
+    path: ../Boyles.Tablazor/Colors.cs
+    startLine: 12
+  assemblies:
+  - Boyles.Tablazor
+  namespace: Boyles.Tablazor
+  syntax:
+    content: Dark = 8
+    return:
+      type: Boyles.Tablazor.Colors
+- uid: Boyles.Tablazor.Colors.Blue
+  commentId: F:Boyles.Tablazor.Colors.Blue
+  id: Blue
+  parent: Boyles.Tablazor.Colors
+  langs:
+  - csharp
+  - vb
+  name: Blue
+  nameWithType: Colors.Blue
+  fullName: Boyles.Tablazor.Colors.Blue
+  type: Field
+  source:
+    remote:
+      path: src/Boyles.Tablazor/Colors.cs
+      branch: dev
+      repo: https://github.com/wayneboyles/tablazor.git
+    id: Blue
+    path: ../Boyles.Tablazor/Colors.cs
+    startLine: 13
+  assemblies:
+  - Boyles.Tablazor
+  namespace: Boyles.Tablazor
+  syntax:
+    content: Blue = 9
+    return:
+      type: Boyles.Tablazor.Colors
+- uid: Boyles.Tablazor.Colors.Azure
+  commentId: F:Boyles.Tablazor.Colors.Azure
+  id: Azure
+  parent: Boyles.Tablazor.Colors
+  langs:
+  - csharp
+  - vb
+  name: Azure
+  nameWithType: Colors.Azure
+  fullName: Boyles.Tablazor.Colors.Azure
+  type: Field
+  source:
+    remote:
+      path: src/Boyles.Tablazor/Colors.cs
+      branch: dev
+      repo: https://github.com/wayneboyles/tablazor.git
+    id: Azure
+    path: ../Boyles.Tablazor/Colors.cs
+    startLine: 14
+  assemblies:
+  - Boyles.Tablazor
+  namespace: Boyles.Tablazor
+  syntax:
+    content: Azure = 10
+    return:
+      type: Boyles.Tablazor.Colors
+- uid: Boyles.Tablazor.Colors.Indigo
+  commentId: F:Boyles.Tablazor.Colors.Indigo
+  id: Indigo
+  parent: Boyles.Tablazor.Colors
+  langs:
+  - csharp
+  - vb
+  name: Indigo
+  nameWithType: Colors.Indigo
+  fullName: Boyles.Tablazor.Colors.Indigo
+  type: Field
+  source:
+    remote:
+      path: src/Boyles.Tablazor/Colors.cs
+      branch: dev
+      repo: https://github.com/wayneboyles/tablazor.git
+    id: Indigo
+    path: ../Boyles.Tablazor/Colors.cs
+    startLine: 15
+  assemblies:
+  - Boyles.Tablazor
+  namespace: Boyles.Tablazor
+  syntax:
+    content: Indigo = 11
+    return:
+      type: Boyles.Tablazor.Colors
+- uid: Boyles.Tablazor.Colors.Purple
+  commentId: F:Boyles.Tablazor.Colors.Purple
+  id: Purple
+  parent: Boyles.Tablazor.Colors
+  langs:
+  - csharp
+  - vb
+  name: Purple
+  nameWithType: Colors.Purple
+  fullName: Boyles.Tablazor.Colors.Purple
+  type: Field
+  source:
+    remote:
+      path: src/Boyles.Tablazor/Colors.cs
+      branch: dev
+      repo: https://github.com/wayneboyles/tablazor.git
+    id: Purple
+    path: ../Boyles.Tablazor/Colors.cs
+    startLine: 16
+  assemblies:
+  - Boyles.Tablazor
+  namespace: Boyles.Tablazor
+  syntax:
+    content: Purple = 12
+    return:
+      type: Boyles.Tablazor.Colors
+- uid: Boyles.Tablazor.Colors.Pink
+  commentId: F:Boyles.Tablazor.Colors.Pink
+  id: Pink
+  parent: Boyles.Tablazor.Colors
+  langs:
+  - csharp
+  - vb
+  name: Pink
+  nameWithType: Colors.Pink
+  fullName: Boyles.Tablazor.Colors.Pink
+  type: Field
+  source:
+    remote:
+      path: src/Boyles.Tablazor/Colors.cs
+      branch: dev
+      repo: https://github.com/wayneboyles/tablazor.git
+    id: Pink
+    path: ../Boyles.Tablazor/Colors.cs
+    startLine: 17
+  assemblies:
+  - Boyles.Tablazor
+  namespace: Boyles.Tablazor
+  syntax:
+    content: Pink = 13
+    return:
+      type: Boyles.Tablazor.Colors
+- uid: Boyles.Tablazor.Colors.Red
+  commentId: F:Boyles.Tablazor.Colors.Red
+  id: Red
+  parent: Boyles.Tablazor.Colors
+  langs:
+  - csharp
+  - vb
+  name: Red
+  nameWithType: Colors.Red
+  fullName: Boyles.Tablazor.Colors.Red
+  type: Field
+  source:
+    remote:
+      path: src/Boyles.Tablazor/Colors.cs
+      branch: dev
+      repo: https://github.com/wayneboyles/tablazor.git
+    id: Red
+    path: ../Boyles.Tablazor/Colors.cs
+    startLine: 18
+  assemblies:
+  - Boyles.Tablazor
+  namespace: Boyles.Tablazor
+  syntax:
+    content: Red = 14
+    return:
+      type: Boyles.Tablazor.Colors
+- uid: Boyles.Tablazor.Colors.Orange
+  commentId: F:Boyles.Tablazor.Colors.Orange
+  id: Orange
+  parent: Boyles.Tablazor.Colors
+  langs:
+  - csharp
+  - vb
+  name: Orange
+  nameWithType: Colors.Orange
+  fullName: Boyles.Tablazor.Colors.Orange
+  type: Field
+  source:
+    remote:
+      path: src/Boyles.Tablazor/Colors.cs
+      branch: dev
+      repo: https://github.com/wayneboyles/tablazor.git
+    id: Orange
+    path: ../Boyles.Tablazor/Colors.cs
+    startLine: 19
+  assemblies:
+  - Boyles.Tablazor
+  namespace: Boyles.Tablazor
+  syntax:
+    content: Orange = 15
+    return:
+      type: Boyles.Tablazor.Colors
+- uid: Boyles.Tablazor.Colors.Yellow
+  commentId: F:Boyles.Tablazor.Colors.Yellow
+  id: Yellow
+  parent: Boyles.Tablazor.Colors
+  langs:
+  - csharp
+  - vb
+  name: Yellow
+  nameWithType: Colors.Yellow
+  fullName: Boyles.Tablazor.Colors.Yellow
+  type: Field
+  source:
+    remote:
+      path: src/Boyles.Tablazor/Colors.cs
+      branch: dev
+      repo: https://github.com/wayneboyles/tablazor.git
+    id: Yellow
+    path: ../Boyles.Tablazor/Colors.cs
+    startLine: 20
+  assemblies:
+  - Boyles.Tablazor
+  namespace: Boyles.Tablazor
+  syntax:
+    content: Yellow = 16
+    return:
+      type: Boyles.Tablazor.Colors
+- uid: Boyles.Tablazor.Colors.Lime
+  commentId: F:Boyles.Tablazor.Colors.Lime
+  id: Lime
+  parent: Boyles.Tablazor.Colors
+  langs:
+  - csharp
+  - vb
+  name: Lime
+  nameWithType: Colors.Lime
+  fullName: Boyles.Tablazor.Colors.Lime
+  type: Field
+  source:
+    remote:
+      path: src/Boyles.Tablazor/Colors.cs
+      branch: dev
+      repo: https://github.com/wayneboyles/tablazor.git
+    id: Lime
+    path: ../Boyles.Tablazor/Colors.cs
+    startLine: 21
+  assemblies:
+  - Boyles.Tablazor
+  namespace: Boyles.Tablazor
+  syntax:
+    content: Lime = 17
+    return:
+      type: Boyles.Tablazor.Colors
+- uid: Boyles.Tablazor.Colors.Green
+  commentId: F:Boyles.Tablazor.Colors.Green
+  id: Green
+  parent: Boyles.Tablazor.Colors
+  langs:
+  - csharp
+  - vb
+  name: Green
+  nameWithType: Colors.Green
+  fullName: Boyles.Tablazor.Colors.Green
+  type: Field
+  source:
+    remote:
+      path: src/Boyles.Tablazor/Colors.cs
+      branch: dev
+      repo: https://github.com/wayneboyles/tablazor.git
+    id: Green
+    path: ../Boyles.Tablazor/Colors.cs
+    startLine: 22
+  assemblies:
+  - Boyles.Tablazor
+  namespace: Boyles.Tablazor
+  syntax:
+    content: Green = 18
+    return:
+      type: Boyles.Tablazor.Colors
+- uid: Boyles.Tablazor.Colors.Teal
+  commentId: F:Boyles.Tablazor.Colors.Teal
+  id: Teal
+  parent: Boyles.Tablazor.Colors
+  langs:
+  - csharp
+  - vb
+  name: Teal
+  nameWithType: Colors.Teal
+  fullName: Boyles.Tablazor.Colors.Teal
+  type: Field
+  source:
+    remote:
+      path: src/Boyles.Tablazor/Colors.cs
+      branch: dev
+      repo: https://github.com/wayneboyles/tablazor.git
+    id: Teal
+    path: ../Boyles.Tablazor/Colors.cs
+    startLine: 23
+  assemblies:
+  - Boyles.Tablazor
+  namespace: Boyles.Tablazor
+  syntax:
+    content: Teal = 19
+    return:
+      type: Boyles.Tablazor.Colors
+- uid: Boyles.Tablazor.Colors.Cyan
+  commentId: F:Boyles.Tablazor.Colors.Cyan
+  id: Cyan
+  parent: Boyles.Tablazor.Colors
+  langs:
+  - csharp
+  - vb
+  name: Cyan
+  nameWithType: Colors.Cyan
+  fullName: Boyles.Tablazor.Colors.Cyan
+  type: Field
+  source:
+    remote:
+      path: src/Boyles.Tablazor/Colors.cs
+      branch: dev
+      repo: https://github.com/wayneboyles/tablazor.git
+    id: Cyan
+    path: ../Boyles.Tablazor/Colors.cs
+    startLine: 24
+  assemblies:
+  - Boyles.Tablazor
+  namespace: Boyles.Tablazor
+  syntax:
+    content: Cyan = 20
+    return:
+      type: Boyles.Tablazor.Colors
+references:
+- uid: Boyles.Tablazor
+  commentId: N:Boyles.Tablazor
+  href: Boyles.html
+  name: Boyles.Tablazor
+  nameWithType: Boyles.Tablazor
+  fullName: Boyles.Tablazor
+  spec.csharp:
+  - uid: Boyles
+    name: Boyles
+    href: Boyles.html
+  - name: .
+  - uid: Boyles.Tablazor
+    name: Tablazor
+    href: Boyles.Tablazor.html
+  spec.vb:
+  - uid: Boyles
+    name: Boyles
+    href: Boyles.html
+  - name: .
+  - uid: Boyles.Tablazor
+    name: Tablazor
+    href: Boyles.Tablazor.html
+- uid: Boyles.Tablazor.Colors
+  commentId: T:Boyles.Tablazor.Colors
+  parent: Boyles.Tablazor
+  href: Boyles.Tablazor.Colors.html
+  name: Colors
+  nameWithType: Colors
+  fullName: Boyles.Tablazor.Colors

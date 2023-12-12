@@ -9,8 +9,6 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Boyles.Tablazor.Demo", "src
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Demos", "Demos", "{A146DE2A-EF66-44A3-A89E-FB9E199F7E98}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Boyles.Tablazor.IconGenerator", "src\Boyles.Tablazor.IconGenerator\Boyles.Tablazor.IconGenerator.csproj", "{96626695-5792-495F-8D45-A29E428D7818}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{96FB5323-DBC5-4DF9-B65C-AD21E479F0A4}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Boyles.Tablazor.Tests", "tests\Boyles.Tablazor.Tests\Boyles.Tablazor.Tests.csproj", "{69244E18-309C-4F5E-A16C-1D40D72A2BBD}"
@@ -29,10 +27,6 @@ Global
 		{9ED9268A-03E6-4F6B-91FC-4AFA8EE203BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9ED9268A-03E6-4F6B-91FC-4AFA8EE203BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9ED9268A-03E6-4F6B-91FC-4AFA8EE203BD}.Release|Any CPU.Build.0 = Release|Any CPU
-		{96626695-5792-495F-8D45-A29E428D7818}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{96626695-5792-495F-8D45-A29E428D7818}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{96626695-5792-495F-8D45-A29E428D7818}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{96626695-5792-495F-8D45-A29E428D7818}.Release|Any CPU.Build.0 = Release|Any CPU
 		{69244E18-309C-4F5E-A16C-1D40D72A2BBD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{69244E18-309C-4F5E-A16C-1D40D72A2BBD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{69244E18-309C-4F5E-A16C-1D40D72A2BBD}.Release|Any CPU.ActiveCfg = Release|Any CPU
