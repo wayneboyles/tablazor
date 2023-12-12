@@ -1,0 +1,87 @@
+﻿@inherits TablerComponent
+
+@if (Visible)
+{
+    <div @ref="@Element" @attributes="Attributes" class="@GetComponentCssClass()" style="@Style" id="@GetId()">
+        @if (HasStatus)
+        {
+            <div class="@GetStatusCssClass()"></div>
+        }
+        <div class="card-body">
+            @if (!string.IsNullOrWhiteSpace(Title))
+            {
+                <h3 class="card-title">@Title</h3>
+            }
+            <p>@ChildContent</p>
+        </div>
+    </div>
+}
+
+@code {
+
+    /// <summary>
+    /// Child content
+    /// </summary>
+    [Parameter]
+    public RenderFragment? ChildContent { get; set; }
+
+    /// <summary>
+    /// The size of the card
+    /// </summary>
+    [Parameter]
+    public Sizes Padding { get; set; } = Sizes.Default;
+
+    /// <summary>
+    /// The card title
+    /// </summary>
+    [Parameter]
+    public string? Title { get; set; }
+
+    /// <summary>
+    /// The status location on the card
+    /// </summary>
+    [Parameter]
+    public StatusLocation StatusLocation { get; set; } = StatusLocation.None;
+
+    /// <summary>
+    /// The status color
+    /// </summary>
+    [Parameter]
+    public Colors StatusColor { get; set; } = Colors.Success;
+
+    [Parameter]
+    public bool StackedCard { get; set; }
+
+    /// <summary>
+    /// If or not this card will display a status color
+    /// </summary>
+    public bool HasStatus => StatusLocation != StatusLocation.None;
+
+    protected override string GetComponentCssClass()
+    {
+        var builder = ClassBuilder.Create("card");
+
+        // Padding
+        builder.Add("card-lg", Padding == Sizes.Large);
+        builder.Add("card-md", Padding == Sizes.Medium);
+        builder.Add("card-sm", Padding == Sizes.Small);
+
+        // Stack
+        builder.Add("card-stacked", StackedCard);
+
+        return builder.ToString();
+    }
+
+    private string GetStatusCssClass()
+    {
+        var builder = ClassBuilder.Create();
+
+        var location = StatusLocation.ToString().ToLowerInvariant();
+        builder.Add($"card-status-{location}");
+
+        var color = StatusColor.ToString().ToLowerInvariant();
+        builder.Add($"bg-{color}");
+
+        return builder.ToString();
+    }
+}

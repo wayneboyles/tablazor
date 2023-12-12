@@ -1,0 +1,166 @@
+### YamlMime:ManagedReference
+items:
+- uid: Boyles.Tablazor.IconAnimations
+  commentId: T:Boyles.Tablazor.IconAnimations
+  id: IconAnimations
+  parent: Boyles.Tablazor
+  children:
+  - Boyles.Tablazor.IconAnimations.None
+  - Boyles.Tablazor.IconAnimations.Pulse
+  - Boyles.Tablazor.IconAnimations.Rotate
+  - Boyles.Tablazor.IconAnimations.Tada
+  langs:
+  - csharp
+  - vb
+  name: IconAnimations
+  nameWithType: IconAnimations
+  fullName: Boyles.Tablazor.IconAnimations
+  type: Enum
+  source:
+    remote:
+      path: src/Boyles.Tablazor/Common.cs
+      branch: dev
+      repo: https://github.com/wayneboyles/tablazor.git
+    id: IconAnimations
+    path: ../Boyles.Tablazor/Common.cs
+    startLine: 42
+  assemblies:
+  - Boyles.Tablazor
+  namespace: Boyles.Tablazor
+  syntax:
+    content: public enum IconAnimations
+    content.vb: Public Enum IconAnimations
+- uid: Boyles.Tablazor.IconAnimations.None
+  commentId: F:Boyles.Tablazor.IconAnimations.None
+  id: None
+  parent: Boyles.Tablazor.IconAnimations
+  langs:
+  - csharp
+  - vb
+  name: None
+  nameWithType: IconAnimations.None
+  fullName: Boyles.Tablazor.IconAnimations.None
+  type: Field
+  source:
+    remote:
+      path: src/Boyles.Tablazor/Common.cs
+      branch: dev
+      repo: https://github.com/wayneboyles/tablazor.git
+    id: None
+    path: ../Boyles.Tablazor/Common.cs
+    startLine: 44
+  assemblies:
+  - Boyles.Tablazor
+  namespace: Boyles.Tablazor
+  syntax:
+    content: None = 0
+    return:
+      type: Boyles.Tablazor.IconAnimations
+- uid: Boyles.Tablazor.IconAnimations.Pulse
+  commentId: F:Boyles.Tablazor.IconAnimations.Pulse
+  id: Pulse
+  parent: Boyles.Tablazor.IconAnimations
+  langs:
+  - csharp
+  - vb
+  name: Pulse
+  nameWithType: IconAnimations.Pulse
+  fullName: Boyles.Tablazor.IconAnimations.Pulse
+  type: Field
+  source:
+    remote:
+      path: src/Boyles.Tablazor/Common.cs
+      branch: dev
+      repo: https://github.com/wayneboyles/tablazor.git
+    id: Pulse
+    path: ../Boyles.Tablazor/Common.cs
+    startLine: 45
+  assemblies:
+  - Boyles.Tablazor
+  namespace: Boyles.Tablazor
+  syntax:
+    content: Pulse = 1
+    return:
+      type: Boyles.Tablazor.IconAnimations
+- uid: Boyles.Tablazor.IconAnimations.Tada
+  commentId: F:Boyles.Tablazor.IconAnimations.Tada
+  id: Tada
+  parent: Boyles.Tablazor.IconAnimations
+  langs:
+  - csharp
+  - vb
+  name: Tada
+  nameWithType: IconAnimations.Tada
+  fullName: Boyles.Tablazor.IconAnimations.Tada
+  type: Field
+  source:
+    remote:
+      path: src/Boyles.Tablazor/Common.cs
+      branch: dev
+      repo: https://github.com/wayneboyles/tablazor.git
+    id: Tada
+    path: ../Boyles.Tablazor/Common.cs
+    startLine: 46
+  assemblies:
+  - Boyles.Tablazor
+  namespace: Boyles.Tablazor
+  syntax:
+    content: Tada = 2
+    return:
+      type: Boyles.Tablazor.IconAnimations
+- uid: Boyles.Tablazor.IconAnimations.Rotate
+  commentId: F:Boyles.Tablazor.IconAnimations.Rotate
+  id: Rotate
+  parent: Boyles.Tablazor.IconAnimations
+  langs:
+  - csharp
+  - vb
+  name: Rotate
+  nameWithType: IconAnimations.Rotate
+  fullName: Boyles.Tablazor.IconAnimations.Rotate
+  type: Field
+  source:
+    remote:
+      path: src/Boyles.Tablazor/Common.cs
+      branch: dev
+      repo: https://github.com/wayneboyles/tablazor.git
+    id: Rotate
+    path: ../Boyles.Tablazor/Common.cs
+    startLine: 47
+  assemblies:
+  - Boyles.Tablazor
+  namespace: Boyles.Tablazor
+  syntax:
+    content: Rotate = 3
+    return:
+      type: Boyles.Tablazor.IconAnimations
+references:
+- uid: Boyles.Tablazor
+  commentId: N:Boyles.Tablazor
+  href: Boyles.html
+  name: Boyles.Tablazor
+  nameWithType: Boyles.Tablazor
+  fullName: Boyles.Tablazor
+  spec.csharp:
+  - uid: Boyles
+    name: Boyles
+    href: Boyles.html
+  - name: .
+  - uid: Boyles.Tablazor
+    name: Tablazor
+    href: Boyles.Tablazor.html
+  spec.vb:
+  - uid: Boyles
+    name: Boyles
+    href: Boyles.html
+  - name: .
+  - uid: Boyles.Tablazor
+    name: Tablazor
+    href: Boyles.Tablazor.html
+- uid: Boyles.Tablazor.IconAnimations
+  commentId: T:Boyles.Tablazor.IconAnimations
+  parent: Boyles.Tablazor
+  href: Boyles.Tablazor.IconAnimations.html
+  name: IconAnimations
+  nameWithType: IconAnimations
+  fullName: Boyles.Tablazor.IconAnimations

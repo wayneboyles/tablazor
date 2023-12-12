@@ -1,0 +1,34 @@
+﻿@inherits TablerComponent
+
+@if (Visible && !string.IsNullOrWhiteSpace(Icon))
+{
+    <i @ref="@Element" style="@Style" @attributes="Attributes" class="@GetCssClass()" id="@GetId()"></i>
+}
+
+@code {
+
+    [Parameter]
+    public string? Icon { get; set; }
+
+    [Parameter]
+    public Colors Color { get; set; } = Colors.Default;
+
+    [Parameter]
+    public IconAnimations Animation { get; set; } = IconAnimations.None;
+
+    protected override string GetComponentCssClass()
+    {
+        var builder = ClassBuilder.Create("ti");
+        
+        // Icon Name
+        builder.Add($"ti-{Icon}");
+
+        // Color
+        builder.Add($"text-{Color.ToString().ToLowerInvariant()}", Color != Colors.Default);
+
+        // Animation
+        builder.Add($"icon-{Animation.ToString().ToLowerInvariant()}", Animation != IconAnimations.None);
+
+        return builder.ToString();
+    }
+}

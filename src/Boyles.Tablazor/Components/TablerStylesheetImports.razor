@@ -1,0 +1,46 @@
+﻿@using Microsoft.AspNetCore.Hosting
+@using Microsoft.Extensions.Options
+@using Boyles.Tablazor.Configuration
+@using Microsoft.Extensions.Hosting
+@using System.Text
+
+@inject IWebHostEnvironment Environment
+@inject IOptions<TablerOptions> Options
+
+@foreach (var stylesheetAsset in Options.Value.Assets.StyleSheets.OrderBy(x=> x.Order))
+{
+    <link rel="stylesheet" type="text/css" href="@CreateStyleSheetReference(stylesheetAsset)" /> 
+    @System.Environment.NewLine
+}
+
+<style type="text/css">
+    @@import url('https://rsms.me/inter/inter.css');
+
+    :root {
+        --tblr-font-sans-serif: 'Inter Var', -apple-system, BlinkMacSystemFont, San Francisco, Segoe UI, Roboto, Helvetica Neue, sans-serif;
+    }
+
+    body {
+        font-feature-settings: "cv03", "cv04", "cv11";
+    }
+</style>
+
+
+@code
+{
+    private string CreateStyleSheetReference(TablerAsset asset)
+    {
+        var styleSheetName = string.Concat(asset.Name, Environment.IsProduction() ? ".min.css" : ".css");
+
+        if (!Environment.IsProduction())
+        {
+            styleSheetName = asset.CdnOptions is CdnOptions.UseCdnForDev or CdnOptions.UseCdnForBoth ? $"https://cdn.jsdelivr.net/npm/@tabler/core@{Options.Value.Version}/dist/css/{styleSheetName}" : $"/tabler/css/{styleSheetName}";
+        }
+        else
+        {
+            styleSheetName = asset.CdnOptions is CdnOptions.UseCdnForProd or CdnOptions.UseCdnForBoth ? $"https://cdn.jsdelivr.net/npm/@tabler/core@{Options.Value.Version}/dist/css/{styleSheetName}" : $"/tabler/css/{styleSheetName}";
+        }
+
+        return styleSheetName;
+    }
+}

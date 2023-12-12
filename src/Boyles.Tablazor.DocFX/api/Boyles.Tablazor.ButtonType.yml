@@ -1,0 +1,195 @@
+### YamlMime:ManagedReference
+items:
+- uid: Boyles.Tablazor.ButtonType
+  commentId: T:Boyles.Tablazor.ButtonType
+  id: ButtonType
+  parent: Boyles.Tablazor
+  children:
+  - Boyles.Tablazor.ButtonType.Button
+  - Boyles.Tablazor.ButtonType.Input
+  - Boyles.Tablazor.ButtonType.Link
+  - Boyles.Tablazor.ButtonType.Reset
+  - Boyles.Tablazor.ButtonType.Submit
+  langs:
+  - csharp
+  - vb
+  name: ButtonType
+  nameWithType: ButtonType
+  fullName: Boyles.Tablazor.ButtonType
+  type: Enum
+  source:
+    remote:
+      path: src/Boyles.Tablazor/Common.cs
+      branch: dev
+      repo: https://github.com/wayneboyles/tablazor.git
+    id: ButtonType
+    path: ../Boyles.Tablazor/Common.cs
+    startLine: 5
+  assemblies:
+  - Boyles.Tablazor
+  namespace: Boyles.Tablazor
+  summary: Defines how a button will be rendered
+  example: []
+  syntax:
+    content: public enum ButtonType
+    content.vb: Public Enum ButtonType
+- uid: Boyles.Tablazor.ButtonType.Link
+  commentId: F:Boyles.Tablazor.ButtonType.Link
+  id: Link
+  parent: Boyles.Tablazor.ButtonType
+  langs:
+  - csharp
+  - vb
+  name: Link
+  nameWithType: ButtonType.Link
+  fullName: Boyles.Tablazor.ButtonType.Link
+  type: Field
+  source:
+    remote:
+      path: src/Boyles.Tablazor/Common.cs
+      branch: dev
+      repo: https://github.com/wayneboyles/tablazor.git
+    id: Link
+    path: ../Boyles.Tablazor/Common.cs
+    startLine: 7
+  assemblies:
+  - Boyles.Tablazor
+  namespace: Boyles.Tablazor
+  syntax:
+    content: Link = 0
+    return:
+      type: Boyles.Tablazor.ButtonType
+- uid: Boyles.Tablazor.ButtonType.Button
+  commentId: F:Boyles.Tablazor.ButtonType.Button
+  id: Button
+  parent: Boyles.Tablazor.ButtonType
+  langs:
+  - csharp
+  - vb
+  name: Button
+  nameWithType: ButtonType.Button
+  fullName: Boyles.Tablazor.ButtonType.Button
+  type: Field
+  source:
+    remote:
+      path: src/Boyles.Tablazor/Common.cs
+      branch: dev
+      repo: https://github.com/wayneboyles/tablazor.git
+    id: Button
+    path: ../Boyles.Tablazor/Common.cs
+    startLine: 8
+  assemblies:
+  - Boyles.Tablazor
+  namespace: Boyles.Tablazor
+  syntax:
+    content: Button = 1
+    return:
+      type: Boyles.Tablazor.ButtonType
+- uid: Boyles.Tablazor.ButtonType.Input
+  commentId: F:Boyles.Tablazor.ButtonType.Input
+  id: Input
+  parent: Boyles.Tablazor.ButtonType
+  langs:
+  - csharp
+  - vb
+  name: Input
+  nameWithType: ButtonType.Input
+  fullName: Boyles.Tablazor.ButtonType.Input
+  type: Field
+  source:
+    remote:
+      path: src/Boyles.Tablazor/Common.cs
+      branch: dev
+      repo: https://github.com/wayneboyles/tablazor.git
+    id: Input
+    path: ../Boyles.Tablazor/Common.cs
+    startLine: 9
+  assemblies:
+  - Boyles.Tablazor
+  namespace: Boyles.Tablazor
+  syntax:
+    content: Input = 2
+    return:
+      type: Boyles.Tablazor.ButtonType
+- uid: Boyles.Tablazor.ButtonType.Submit
+  commentId: F:Boyles.Tablazor.ButtonType.Submit
+  id: Submit
+  parent: Boyles.Tablazor.ButtonType
+  langs:
+  - csharp
+  - vb
+  name: Submit
+  nameWithType: ButtonType.Submit
+  fullName: Boyles.Tablazor.ButtonType.Submit
+  type: Field
+  source:
+    remote:
+      path: src/Boyles.Tablazor/Common.cs
+      branch: dev
+      repo: https://github.com/wayneboyles/tablazor.git
+    id: Submit
+    path: ../Boyles.Tablazor/Common.cs
+    startLine: 10
+  assemblies:
+  - Boyles.Tablazor
+  namespace: Boyles.Tablazor
+  syntax:
+    content: Submit = 3
+    return:
+      type: Boyles.Tablazor.ButtonType
+- uid: Boyles.Tablazor.ButtonType.Reset
+  commentId: F:Boyles.Tablazor.ButtonType.Reset
+  id: Reset
+  parent: Boyles.Tablazor.ButtonType
+  langs:
+  - csharp
+  - vb
+  name: Reset
+  nameWithType: ButtonType.Reset
+  fullName: Boyles.Tablazor.ButtonType.Reset
+  type: Field
+  source:
+    remote:
+      path: src/Boyles.Tablazor/Common.cs
+      branch: dev
+      repo: https://github.com/wayneboyles/tablazor.git
+    id: Reset
+    path: ../Boyles.Tablazor/Common.cs
+    startLine: 11
+  assemblies:
+  - Boyles.Tablazor
+  namespace: Boyles.Tablazor
+  syntax:
+    content: Reset = 4
+    return:
+      type: Boyles.Tablazor.ButtonType
+references:
+- uid: Boyles.Tablazor
+  commentId: N:Boyles.Tablazor
+  href: Boyles.html
+  name: Boyles.Tablazor
+  nameWithType: Boyles.Tablazor
+  fullName: Boyles.Tablazor
+  spec.csharp:
+  - uid: Boyles
+    name: Boyles
+    href: Boyles.html
+  - name: .
+  - uid: Boyles.Tablazor
+    name: Tablazor
+    href: Boyles.Tablazor.html
+  spec.vb:
+  - uid: Boyles
+    name: Boyles
+    href: Boyles.html
+  - name: .
+  - uid: Boyles.Tablazor
+    name: Tablazor
+    href: Boyles.Tablazor.html
+- uid: Boyles.Tablazor.ButtonType
+  commentId: T:Boyles.Tablazor.ButtonType
+  parent: Boyles.Tablazor
+  href: Boyles.Tablazor.ButtonType.html
+  name: ButtonType
+  nameWithType: ButtonType
+  fullName: Boyles.Tablazor.ButtonType

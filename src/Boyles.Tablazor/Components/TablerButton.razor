@@ -9,12 +9,17 @@
     else if (Type is ButtonType.Button)
     {
         <button @ref="@Element" style="@Style" disabled="@IsDisabled" @attributes="Attributes" class="@GetCssClass()" id="@GetId()" @onclick="@OnClick">
+            @if (IsBusy)
+            {
+                <span class="spinner-border spinner-border-sm me-2" role="status"></span>
+            }
+
             @Text
         </button>
     }
     else
     {
-        <a @ref="@Element" style="@Style" @attributes="Attributes" class="@GetCssClass()" id="@GetId()" href="javascript:;" @onclick="@OnClick">
+        <a @ref="@Element" style="@Style" @attributes="Attributes" class="@GetCssClass()" id="@GetId()" href="javascript:;" @onclick="@OnClick" role="button">
             @if (IsBusy)
             {
                 <span class="spinner-border spinner-border-sm me-2" role="status"></span>

@@ -1,0 +1,166 @@
+### YamlMime:ManagedReference
+items:
+- uid: Boyles.Tablazor.Sizes
+  commentId: T:Boyles.Tablazor.Sizes
+  id: Sizes
+  parent: Boyles.Tablazor
+  children:
+  - Boyles.Tablazor.Sizes.Default
+  - Boyles.Tablazor.Sizes.Large
+  - Boyles.Tablazor.Sizes.Medium
+  - Boyles.Tablazor.Sizes.Small
+  langs:
+  - csharp
+  - vb
+  name: Sizes
+  nameWithType: Sizes
+  fullName: Boyles.Tablazor.Sizes
+  type: Enum
+  source:
+    remote:
+      path: src/Boyles.Tablazor/Common.cs
+      branch: dev
+      repo: https://github.com/wayneboyles/tablazor.git
+    id: Sizes
+    path: ../Boyles.Tablazor/Common.cs
+    startLine: 34
+  assemblies:
+  - Boyles.Tablazor
+  namespace: Boyles.Tablazor
+  syntax:
+    content: public enum Sizes
+    content.vb: Public Enum Sizes
+- uid: Boyles.Tablazor.Sizes.Default
+  commentId: F:Boyles.Tablazor.Sizes.Default
+  id: Default
+  parent: Boyles.Tablazor.Sizes
+  langs:
+  - csharp
+  - vb
+  name: Default
+  nameWithType: Sizes.Default
+  fullName: Boyles.Tablazor.Sizes.Default
+  type: Field
+  source:
+    remote:
+      path: src/Boyles.Tablazor/Common.cs
+      branch: dev
+      repo: https://github.com/wayneboyles/tablazor.git
+    id: Default
+    path: ../Boyles.Tablazor/Common.cs
+    startLine: 36
+  assemblies:
+  - Boyles.Tablazor
+  namespace: Boyles.Tablazor
+  syntax:
+    content: Default = 0
+    return:
+      type: Boyles.Tablazor.Sizes
+- uid: Boyles.Tablazor.Sizes.Medium
+  commentId: F:Boyles.Tablazor.Sizes.Medium
+  id: Medium
+  parent: Boyles.Tablazor.Sizes
+  langs:
+  - csharp
+  - vb
+  name: Medium
+  nameWithType: Sizes.Medium
+  fullName: Boyles.Tablazor.Sizes.Medium
+  type: Field
+  source:
+    remote:
+      path: src/Boyles.Tablazor/Common.cs
+      branch: dev
+      repo: https://github.com/wayneboyles/tablazor.git
+    id: Medium
+    path: ../Boyles.Tablazor/Common.cs
+    startLine: 37
+  assemblies:
+  - Boyles.Tablazor
+  namespace: Boyles.Tablazor
+  syntax:
+    content: Medium = 1
+    return:
+      type: Boyles.Tablazor.Sizes
+- uid: Boyles.Tablazor.Sizes.Small
+  commentId: F:Boyles.Tablazor.Sizes.Small
+  id: Small
+  parent: Boyles.Tablazor.Sizes
+  langs:
+  - csharp
+  - vb
+  name: Small
+  nameWithType: Sizes.Small
+  fullName: Boyles.Tablazor.Sizes.Small
+  type: Field
+  source:
+    remote:
+      path: src/Boyles.Tablazor/Common.cs
+      branch: dev
+      repo: https://github.com/wayneboyles/tablazor.git
+    id: Small
+    path: ../Boyles.Tablazor/Common.cs
+    startLine: 38
+  assemblies:
+  - Boyles.Tablazor
+  namespace: Boyles.Tablazor
+  syntax:
+    content: Small = 2
+    return:
+      type: Boyles.Tablazor.Sizes
+- uid: Boyles.Tablazor.Sizes.Large
+  commentId: F:Boyles.Tablazor.Sizes.Large
+  id: Large
+  parent: Boyles.Tablazor.Sizes
+  langs:
+  - csharp
+  - vb
+  name: Large
+  nameWithType: Sizes.Large
+  fullName: Boyles.Tablazor.Sizes.Large
+  type: Field
+  source:
+    remote:
+      path: src/Boyles.Tablazor/Common.cs
+      branch: dev
+      repo: https://github.com/wayneboyles/tablazor.git
+    id: Large
+    path: ../Boyles.Tablazor/Common.cs
+    startLine: 39
+  assemblies:
+  - Boyles.Tablazor
+  namespace: Boyles.Tablazor
+  syntax:
+    content: Large = 3
+    return:
+      type: Boyles.Tablazor.Sizes
+references:
+- uid: Boyles.Tablazor
+  commentId: N:Boyles.Tablazor
+  href: Boyles.html
+  name: Boyles.Tablazor
+  nameWithType: Boyles.Tablazor
+  fullName: Boyles.Tablazor
+  spec.csharp:
+  - uid: Boyles
+    name: Boyles
+    href: Boyles.html
+  - name: .
+  - uid: Boyles.Tablazor
+    name: Tablazor
+    href: Boyles.Tablazor.html
+  spec.vb:
+  - uid: Boyles
+    name: Boyles
+    href: Boyles.html
+  - name: .
+  - uid: Boyles.Tablazor
+    name: Tablazor
+    href: Boyles.Tablazor.html
+- uid: Boyles.Tablazor.Sizes
+  commentId: T:Boyles.Tablazor.Sizes
+  parent: Boyles.Tablazor
+  href: Boyles.Tablazor.Sizes.html
+  name: Sizes
+  nameWithType: Sizes
+  fullName: Boyles.Tablazor.Sizes

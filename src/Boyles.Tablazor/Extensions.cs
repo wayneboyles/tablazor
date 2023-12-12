@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Components;
+﻿using Boyles.Tablazor.Configuration;
+using Microsoft.AspNetCore.Components;
 using Microsoft.Extensions.DependencyInjection;
 
 namespace Boyles.Tablazor
@@ -9,9 +10,17 @@ namespace Boyles.Tablazor
         // ServiceCollection Extensions
         //===========================================================
 
-        public static IServiceCollection AddTabler(this IServiceCollection services)
+        public static IServiceCollection AddTabler(this IServiceCollection services, Action<TablerOptions>? optionsAction = null)
         {
             services.ConfigureOptions<UIConfigureOptions>();
+
+            var options = new TablerOptions();
+            
+            if (optionsAction != null)
+            {
+                optionsAction.Invoke(options);
+                services.AddOptions<TablerOptions>().Configure(optionsAction);
+            }
 
             return services;
         }

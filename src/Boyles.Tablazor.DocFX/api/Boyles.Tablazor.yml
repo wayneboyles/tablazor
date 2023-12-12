@@ -1,0 +1,139 @@
+### YamlMime:ManagedReference
+items:
+- uid: Boyles.Tablazor
+  commentId: N:Boyles.Tablazor
+  id: Boyles.Tablazor
+  children:
+  - Boyles.Tablazor.Borders
+  - Boyles.Tablazor.ButtonShape
+  - Boyles.Tablazor.ButtonSize
+  - Boyles.Tablazor.ButtonType
+  - Boyles.Tablazor.ClassBuilder
+  - Boyles.Tablazor.Colors
+  - Boyles.Tablazor.Extensions
+  - Boyles.Tablazor.IPageLayout
+  - Boyles.Tablazor.IconAnimations
+  - Boyles.Tablazor.PageLayout
+  - Boyles.Tablazor.Sizes
+  - Boyles.Tablazor.StatusLocation
+  - Boyles.Tablazor.UIConfigureOptions
+  langs:
+  - csharp
+  - vb
+  name: Boyles.Tablazor
+  nameWithType: Boyles.Tablazor
+  fullName: Boyles.Tablazor
+  type: Namespace
+  assemblies:
+  - Boyles.Tablazor
+references:
+- uid: Boyles.Tablazor.ClassBuilder
+  commentId: T:Boyles.Tablazor.ClassBuilder
+  parent: Boyles.Tablazor
+  href: Boyles.Tablazor.ClassBuilder.html
+  name: ClassBuilder
+  nameWithType: ClassBuilder
+  fullName: Boyles.Tablazor.ClassBuilder
+- uid: Boyles.Tablazor.Colors
+  commentId: T:Boyles.Tablazor.Colors
+  parent: Boyles.Tablazor
+  href: Boyles.Tablazor.Colors.html
+  name: Colors
+  nameWithType: Colors
+  fullName: Boyles.Tablazor.Colors
+- uid: Boyles.Tablazor.ButtonType
+  commentId: T:Boyles.Tablazor.ButtonType
+  parent: Boyles.Tablazor
+  href: Boyles.Tablazor.ButtonType.html
+  name: ButtonType
+  nameWithType: ButtonType
+  fullName: Boyles.Tablazor.ButtonType
+- uid: Boyles.Tablazor.ButtonShape
+  commentId: T:Boyles.Tablazor.ButtonShape
+  parent: Boyles.Tablazor
+  href: Boyles.Tablazor.ButtonShape.html
+  name: ButtonShape
+  nameWithType: ButtonShape
+  fullName: Boyles.Tablazor.ButtonShape
+- uid: Boyles.Tablazor.ButtonSize
+  commentId: T:Boyles.Tablazor.ButtonSize
+  parent: Boyles.Tablazor
+  href: Boyles.Tablazor.ButtonSize.html
+  name: ButtonSize
+  nameWithType: ButtonSize
+  fullName: Boyles.Tablazor.ButtonSize
+- uid: Boyles.Tablazor.Sizes
+  commentId: T:Boyles.Tablazor.Sizes
+  parent: Boyles.Tablazor
+  href: Boyles.Tablazor.Sizes.html
+  name: Sizes
+  nameWithType: Sizes
+  fullName: Boyles.Tablazor.Sizes
+- uid: Boyles.Tablazor.IconAnimations
+  commentId: T:Boyles.Tablazor.IconAnimations
+  parent: Boyles.Tablazor
+  href: Boyles.Tablazor.IconAnimations.html
+  name: IconAnimations
+  nameWithType: IconAnimations
+  fullName: Boyles.Tablazor.IconAnimations
+- uid: Boyles.Tablazor.StatusLocation
+  commentId: T:Boyles.Tablazor.StatusLocation
+  parent: Boyles.Tablazor
+  href: Boyles.Tablazor.StatusLocation.html
+  name: StatusLocation
+  nameWithType: StatusLocation
+  fullName: Boyles.Tablazor.StatusLocation
+- uid: Boyles.Tablazor.Borders
+  commentId: T:Boyles.Tablazor.Borders
+  parent: Boyles.Tablazor
+  href: Boyles.Tablazor.Borders.html
+  name: Borders
+  nameWithType: Borders
+  fullName: Boyles.Tablazor.Borders
+- uid: Boyles.Tablazor.Extensions
+  commentId: T:Boyles.Tablazor.Extensions
+  href: Boyles.Tablazor.Extensions.html
+  name: Extensions
+  nameWithType: Extensions
+  fullName: Boyles.Tablazor.Extensions
+- uid: Boyles.Tablazor.IPageLayout
+  commentId: T:Boyles.Tablazor.IPageLayout
+  parent: Boyles.Tablazor
+  href: Boyles.Tablazor.IPageLayout.html
+  name: IPageLayout
+  nameWithType: IPageLayout
+  fullName: Boyles.Tablazor.IPageLayout
+- uid: Boyles.Tablazor.PageLayout
+  commentId: T:Boyles.Tablazor.PageLayout
+  href: Boyles.Tablazor.PageLayout.html
+  name: PageLayout
+  nameWithType: PageLayout
+  fullName: Boyles.Tablazor.PageLayout
+- uid: Boyles.Tablazor.UIConfigureOptions
+  commentId: T:Boyles.Tablazor.UIConfigureOptions
+  href: Boyles.Tablazor.UIConfigureOptions.html
+  name: UIConfigureOptions
+  nameWithType: UIConfigureOptions
+  fullName: Boyles.Tablazor.UIConfigureOptions
+- uid: Boyles.Tablazor
+  commentId: N:Boyles.Tablazor
+  href: Boyles.html
+  name: Boyles.Tablazor
+  nameWithType: Boyles.Tablazor
+  fullName: Boyles.Tablazor
+  spec.csharp:
+  - uid: Boyles
+    name: Boyles
+    href: Boyles.html
+  - name: .
+  - uid: Boyles.Tablazor
+    name: Tablazor
+    href: Boyles.Tablazor.html
+  spec.vb:
+  - uid: Boyles
+    name: Boyles
+    href: Boyles.html
+  - name: .
+  - uid: Boyles.Tablazor
+    name: Tablazor
+    href: Boyles.Tablazor.html
