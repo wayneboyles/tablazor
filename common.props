@@ -5,4 +5,19 @@
 		<ImplicitUsings>enable</ImplicitUsings>
 	</PropertyGroup>
 	
+	<PropertyGroup>
+		<Version>0.8.0</Version>
+		<AssemblyVersion>$(Version)</AssemblyVersion>
+	</PropertyGroup>
+	
+	<PropertyGroup>
+		<Authors>Wayne Boyles</Authors>
+		<Copyright>Copyright (C) 2025 Wayne Boyles</Copyright>
+		<Description>Blazor Components for the Tabler CSS framework</Description>
+		<PackageProjectUrl>https://github.com/wayneboyles/Tablazor</PackageProjectUrl>
+		<PackageLicenseUrl>https://github.com/wayneboyles/tablazor/blob/main/LICENSE</PackageLicenseUrl>
+		<RepositoryUrl>https://github.com/wayneboyles/tablazor</RepositoryUrl>
+		<RepositoryType>git</RepositoryType>
+	</PropertyGroup>
+	
 </Project>
