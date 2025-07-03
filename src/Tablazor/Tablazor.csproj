@@ -1,0 +1,24 @@
+<Project Sdk="Microsoft.NET.Sdk.Razor">
+
+    <Import Project="..\..\common.props" />
+    
+    <PropertyGroup>
+        <TargetFrameworks>net8.0;net9.0</TargetFrameworks>
+    </PropertyGroup>
+
+    <PropertyGroup>
+        <Title>Tablazor</Title>
+        <PackageId>Tablazor</PackageId>
+        <AssemblyName>Tablazor</AssemblyName>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <SupportedPlatform Include="browser"/>
+    </ItemGroup>
+
+    <ItemGroup>
+        <PackageReference Include="Microsoft.AspNetCore.Components.Web" Version="9.0.3" Condition="'$(Framework)' == 'NET90'"/>
+        <PackageReference Include="Microsoft.AspNetCore.Components.Web" Version="8.0.17" Condition="'$(Framework)' == 'NET80'"/>
+    </ItemGroup>
+
+</Project>
