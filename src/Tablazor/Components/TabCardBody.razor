@@ -1,0 +1,8 @@
+﻿@inherits TabComponentWithChildren
+
+@if (Visible)
+{
+    <div @ref="@Element" id="@GetId()" @attributes="Attributes" class="@GetCssClass()">
+        @ChildContent
+    </div>
+}

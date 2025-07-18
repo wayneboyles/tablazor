@@ -1,0 +1,15 @@
+﻿@inherits TabComponentWithChildren
+
+@if (Visible)
+{
+    <NavLink href="@GetHref()" target="@GetTarget()" id="@GetId()" class="@GetCssClass()" Match="@Match">
+        @if (ChildContent != null)
+        {
+            @ChildContent
+        }
+        else
+        {
+            @Text
+        }
+    </NavLink>
+}

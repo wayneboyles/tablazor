@@ -1,0 +1,6 @@
+﻿@inherits TabComponent
+
+@if (Visible)
+{
+    <img id="@GetId()" @ref="@Element" src="@Path" alt="@AltText" @attributes="Attributes" class="@GetCssClass()" />
+}

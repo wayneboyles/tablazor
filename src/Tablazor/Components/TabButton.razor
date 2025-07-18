@@ -1,0 +1,32 @@
+﻿@inherits TabComponentWithChildren
+
+@if (Visible)
+{
+    <TabElement HtmlTag="@GetHtmlTag()" id="@GetId()" @onclick="@OnClick" @attributes="Attributes" class="@GetCssClass()">
+        @if (ButtonType is ButtonType.Link or ButtonType.Button or ButtonType.Default)
+        {
+            if (Busy)
+            {
+                <span class="spinner-border spinner-border-sm me-2" role="status"></span>
+                @if (!string.IsNullOrEmpty(BusyText))
+                {
+                    @BusyText
+                }
+            }
+            else
+            {
+                if (ChildContent != null)
+                {
+                    @ChildContent
+                }
+                else
+                {
+                    if (!string.IsNullOrEmpty(Text))
+                    {
+                        @Text
+                    }
+                }
+            }
+        }
+    </TabElement>
+}

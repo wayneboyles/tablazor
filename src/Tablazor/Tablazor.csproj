@@ -3,7 +3,7 @@
     <Import Project="..\..\common.props" />
     
     <PropertyGroup>
-        <TargetFrameworks>net8.0;net9.0</TargetFrameworks>
+        <TargetFramework>net9.0</TargetFramework>
     </PropertyGroup>
 
     <PropertyGroup>
@@ -17,8 +17,14 @@
     </ItemGroup>
 
     <ItemGroup>
-        <PackageReference Include="Microsoft.AspNetCore.Components.Web" Version="9.0.3" Condition="'$(Framework)' == 'NET90'"/>
-        <PackageReference Include="Microsoft.AspNetCore.Components.Web" Version="8.0.17" Condition="'$(Framework)' == 'NET80'"/>
+        <PackageReference Include="Microsoft.AspNetCore.Components.Web" Version="9.0.3" />
+        <PackageReference Include="Microsoft.AspNetCore.Localization" Version="2.3.0" />
+        <PackageReference Include="Microsoft.Extensions.Localization" Version="9.0.7" />
+    </ItemGroup>
+    
+    <ItemGroup>
+        <Using Include="Tablazor.Common" />
+        <Using Include="Tablazor.Extensions" />
     </ItemGroup>
 
 </Project>
