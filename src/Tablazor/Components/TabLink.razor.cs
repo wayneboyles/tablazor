@@ -29,6 +29,9 @@ public partial class TabLink : TabComponentWithChildren
     [Parameter]
     public NavLinkMatch Match { get; set; } = NavLinkMatch.Prefix;
     
+    [Parameter]
+    public string? ActiveClass { get; set; }
+    
     /// <summary>
     /// Determines whether the link is disabled
     /// </summary>

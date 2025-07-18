@@ -2,7 +2,7 @@
 
 @if (Visible)
 {
-    <NavLink href="@GetHref()" target="@GetTarget()" id="@GetId()" class="@GetCssClass()" Match="@Match">
+    <NavLink href="@GetHref()" target="@GetTarget()" id="@GetId()" ActiveClass="@ActiveClass" class="@GetCssClass()" Match="@Match">
         @if (ChildContent != null)
         {
             @ChildContent

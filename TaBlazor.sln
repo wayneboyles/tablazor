@@ -9,6 +9,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tablazor.Tests", "Tests\Tab
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{ED3C4C2F-9F46-41D1-BDD7-0DB610C2BE0F}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Demo", "Demo", "{84120E35-EBE4-4BC6-921A-646EAAC0B740}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tablazor.Demo", "src\Tablazor.Demo\Tablazor.Demo.csproj", "{7B8F83F6-06AE-4349-9719-0226D838449B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -26,8 +30,13 @@ Global
 		{BE357EE1-93EA-42DA-B0D8-B9611F0E1788}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BE357EE1-93EA-42DA-B0D8-B9611F0E1788}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BE357EE1-93EA-42DA-B0D8-B9611F0E1788}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7B8F83F6-06AE-4349-9719-0226D838449B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7B8F83F6-06AE-4349-9719-0226D838449B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7B8F83F6-06AE-4349-9719-0226D838449B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7B8F83F6-06AE-4349-9719-0226D838449B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{BE357EE1-93EA-42DA-B0D8-B9611F0E1788} = {ED3C4C2F-9F46-41D1-BDD7-0DB610C2BE0F}
+		{7B8F83F6-06AE-4349-9719-0226D838449B} = {84120E35-EBE4-4BC6-921A-646EAAC0B740}
 	EndGlobalSection
 EndGlobal
