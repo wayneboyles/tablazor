@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tablazor", "src\Tablazor\Tablazor.csproj", "{2614D967-CC16-49D2-AF60-2C3F6F1DCBBD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tablazor.DemoSite", "src\Tablazor.DemoSite\Tablazor.DemoSite.csproj", "{8D0072F8-C310-429B-9374-3E4A37E68A6C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tablazor.Tests", "tests\Tablazor.Tests\Tablazor.Tests.csproj", "{366C0219-5B74-4356-8D0D-FEAC227F30BE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2614D967-CC16-49D2-AF60-2C3F6F1DCBBD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2614D967-CC16-49D2-AF60-2C3F6F1DCBBD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2614D967-CC16-49D2-AF60-2C3F6F1DCBBD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2614D967-CC16-49D2-AF60-2C3F6F1DCBBD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8D0072F8-C310-429B-9374-3E4A37E68A6C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8D0072F8-C310-429B-9374-3E4A37E68A6C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8D0072F8-C310-429B-9374-3E4A37E68A6C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8D0072F8-C310-429B-9374-3E4A37E68A6C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{366C0219-5B74-4356-8D0D-FEAC227F30BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{366C0219-5B74-4356-8D0D-FEAC227F30BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{366C0219-5B74-4356-8D0D-FEAC227F30BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{366C0219-5B74-4356-8D0D-FEAC227F30BE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
