@@ -5,9 +5,10 @@
     </PropertyGroup>
     
     <PropertyGroup>
-        <PackageId>Tablazor</PackageId>
         <PackageLicenseUrl>https://raw.githubusercontent.com/wayneboyles/Tablazor/refs/heads/main/LICENSE</PackageLicenseUrl>
         <PackageProjectUrl>https://github.com/wayneboyles/Tablazor</PackageProjectUrl>
+        <RepositoryUrl>https://github.com/wayneboyles/Tablazor</RepositoryUrl>
+        <RepositoryType>git</RepositoryType>
         <Authors>Wayne Boyles</Authors>
         <Company>$(Authors)</Company>
         <Copyright>Copyright (C) 2025 Wayne Boyles</Copyright>

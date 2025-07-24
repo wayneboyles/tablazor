@@ -6,14 +6,23 @@
         <TargetFrameworks>net8.0;net9.0</TargetFrameworks>
         <AddRazorSupportForMvc>true</AddRazorSupportForMvc>
         <IsPackable>true</IsPackable>
+	    <PackageId>Tablazor</PackageId>
     </PropertyGroup>
 
+	<ItemGroup>
+        <InternalsVisibleTo Include="Tablazor.Tests" />
+	</ItemGroup>
+
     <ItemGroup>
-        <FrameworkReference Include="Microsoft.AspNetCore.App"/>
+        <FrameworkReference Include="Microsoft.AspNetCore.App" />
     </ItemGroup>
 
     <ItemGroup>
       <UpToDateCheckInput Remove="Areas\MyFeature\Pages\Page1.cshtml" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Folder Include="wwwroot\" />
     </ItemGroup>
 
 

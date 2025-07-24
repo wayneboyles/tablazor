@@ -3,5 +3,7 @@
         <Nullable>enable</Nullable>
         <ImplicitUsings>true</ImplicitUsings>
         <LangVersion>13.0</LangVersion>
+		<TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+		<NuGetAudit>false</NuGetAudit>
     </PropertyGroup>
 </Project>

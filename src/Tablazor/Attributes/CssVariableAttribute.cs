@@ -1,6 +1,6 @@
 ﻿namespace Tablazor.Attributes
 {
-    [AttributeUsage(AttributeTargets.Field | AttributeTargets.Property)]
+    [AttributeUsage(AttributeTargets.Field | AttributeTargets.Property, AllowMultiple = false)]
     public sealed class CssVariableAttribute : Attribute
     {
         public string Variable { get; set; }

@@ -1,6 +1,9 @@
-﻿namespace Tablazor.Core;
+﻿using Microsoft.AspNetCore.Components;
 
-public class TabComponentWithChildren
+namespace Tablazor.Core;
+
+public abstract class TabComponentWithChildren : TabComponent
 {
-    
+    [Parameter]
+    public RenderFragment? ChildContent { get; set; }
 }

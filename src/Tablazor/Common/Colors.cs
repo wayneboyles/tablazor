@@ -5,7 +5,15 @@ namespace Tablazor.Common;
 public enum Colors
 {
     Default,
-    
+
+    [CssClass("dark")]
+    [CssVariable("--tblr-dark")]
+    Dark,
+
+    [CssClass("light")]
+    [CssVariable("--tblr-light")]
+    Light,
+
     [CssClass("blue")]
     [CssVariable("--tblr-blue")]
     Blue,
@@ -176,5 +184,61 @@ public enum Colors
 
     [CssClass("danger")]
     [CssVariable("--tblr-danger")]
-    Danger
+    Danger,
+
+    [CssClass("facebook")]
+    [CssVariable("--tblr-facebook")]
+    Facebook,
+
+    [CssClass("twitter")]
+    [CssVariable("--tblr-twitter")]
+    Twitter,
+
+    [CssClass("google")]
+    [CssVariable("--tblr-google")]
+    Google,
+
+    [CssClass("youtube")]
+    [CssVariable("--tblr-youtube")]
+    Youtube,
+
+    [CssClass("vimeo")]
+    [CssVariable("--tblr-vimeo")]
+    Vimeo,
+
+    [CssClass("dribbble")]
+    [CssVariable("--tblr-dribbble")]
+    Dribbble,
+
+    [CssClass("github")]
+    [CssVariable("--tblr-github")]
+    Github,
+
+    [CssClass("instagram")]
+    [CssVariable("--tblr-instagram")]
+    Instagram,
+
+    [CssClass("pinterest")]
+    [CssVariable("--tblr-pinterest")]
+    Pintrest,
+
+    [CssClass("vk")]
+    [CssVariable("--tblr-vk")]
+    Vk,
+
+    [CssClass("rss")]
+    [CssVariable("--tblr-rss")]
+    Rss,
+
+    [CssClass("flickr")]
+    [CssVariable("--tblr-flickr")]
+    Flickr,
+
+    [CssClass("bitbucket")]
+    [CssVariable("--tblr-bitbucket")]
+    Bitbucket,
+
+    [CssClass("tabler")]
+    [CssVariable("--tblr-tabler")]
+    Tabler
 }

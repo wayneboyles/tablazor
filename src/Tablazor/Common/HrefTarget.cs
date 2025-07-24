@@ -2,8 +2,10 @@
 
 namespace Tablazor.Common;
 
-public enum Target
+public enum HrefTarget
 {
+    Default,
+    
     [Description("_blank")]
     Blank,
     
