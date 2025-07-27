@@ -1,0 +1,82 @@
+﻿@using Tablazor.DemoSite.Services
+
+@inject DemoService DemoService
+@inject NavigationManager NavigationManager
+
+<ul class="navbar-nav">
+    <li class="nav-item">
+        <NavLink Match="NavLinkMatch.All" class="nav-link" href="">
+            <span class="nav-link-icon d-md-none d-lg-inline-block">
+                <!-- Download SVG icon from http://tabler.io/icons/icon/home -->
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-1">
+                    <path d="M5 12l-2 0l9 -9l9 9l-2 0" />
+                    <path d="M5 12v7a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-7" />
+                    <path d="M9 21v-6a2 2 0 0 1 2 -2h2a2 2 0 0 1 2 2v6" />
+                </svg>
+            </span>
+            <span class="nav-link-title">Home</span>
+        </NavLink>
+    </li>
+    <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#navbar-base" data-bs-toggle="dropdown" data-bs-auto-close="outside" role="button" aria-expanded="false">
+            <span class="nav-link-icon d-md-none d-lg-inline-block">
+                <!-- Download SVG icon from http://tabler.io/icons/icon/package -->
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-1">
+                    <path d="M12 3l8 4.5l0 9l-8 4.5l-8 -4.5l0 -9l8 -4.5" />
+                    <path d="M12 12l8 -4.5" />
+                    <path d="M12 12l0 9" />
+                    <path d="M12 12l-8 -4.5" />
+                    <path d="M16 5.25l-8 4.5" />
+                </svg>
+            </span>
+            <span class="nav-link-title">Interface</span>
+        </a>
+        <div class="dropdown-menu">
+            <div class="dropdown-menu-columns">
+                <div class="dropdown-menu-column">
+                    <NavLink Match="NavLinkMatch.Prefix" class="dropdown-item" href="accordion">Accordion</NavLink>
+                    <NavLink Match="NavLinkMatch.Prefix" class="dropdown-item" href="alerts">Alerts</NavLink>
+                    <NavLink Match="NavLinkMatch.Prefix" class="dropdown-item" href="avatars">Avatars</NavLink>
+                    <NavLink Match="NavLinkMatch.Prefix" class="dropdown-item" href="badges"> Badges </NavLink>
+                    <NavLink Match="NavLinkMatch.Prefix" class="dropdown-item" href="blank"> Blank page </NavLink>
+                    <NavLink Match="NavLinkMatch.Prefix" class="dropdown-item" href="buttons"> Buttons </NavLink>
+                    
+                    <div class="dropend">
+                        <a class="dropdown-item dropdown-toggle" href="#sidebar-cards" data-bs-toggle="dropdown" data-bs-auto-close="outside" role="button" aria-expanded="false">
+                            Cards
+                        </a>
+                        <div class="dropdown-menu">
+                            <NavLink Match="NavLinkMatch.Prefix" href="cards" class="dropdown-item"> Sample cards </NavLink>
+                            <NavLink Match="NavLinkMatch.Prefix" href="card-actions" class="dropdown-item">Card actions</NavLink>
+                            <NavLink Match="NavLinkMatch.Prefix" href="cards-masonry" class="dropdown-item"> Cards Masonry </NavLink>
+                        </div>
+                    </div>
+                    
+                    <NavLink class="dropdown-item" href="carousel"> Carousel </NavLink>
+                    <NavLink class="dropdown-item" href="colors"> Colors </NavLink>
+                    <NavLink class="dropdown-item" href="datagrid"> Data grid </NavLink>
+                    <NavLink class="dropdown-item" href="dropdowns"> Dropdowns </NavLink>
+                    <NavLink class="dropdown-item" href="lists"> Lists </NavLink>
+                    <NavLink class="dropdown-item" href="modals"> Modals </NavLink>
+                </div>
+                <div class="dropdown-menu-column">
+                    <NavLink class="dropdown-item" href="markdown"> Markdown </NavLink>
+                    <NavLink class="dropdown-item" href="navigation"> Navigation </NavLink>
+                    <NavLink class="dropdown-item" href="offcanvas"> Offcanvas </NavLink>
+                    <NavLink class="dropdown-item" href="pagination"> Pagination </NavLink>
+                    <NavLink class="dropdown-item" href="placeholder"> Placeholder </NavLink>
+                    <NavLink class="dropdown-item" href="segmented-control">Segmented control</NavLink>
+                    <NavLink class="dropdown-item" href="scroll-spy">Scroll spy</NavLink>
+                    <NavLink class="dropdown-item" href="social-icons"> Social icons </NavLink>
+                    <NavLink class="dropdown-item" href="stars-rating"> Stars rating </NavLink>
+                    <NavLink class="dropdown-item" href="steps"> Steps </NavLink>
+                    <NavLink class="dropdown-item" href="tables"> Tables </NavLink>
+                    <NavLink class="dropdown-item" href="tabs"> Tabs </NavLink>
+                    <NavLink class="dropdown-item" href="tags"> Tags </NavLink>
+                    <NavLink class="dropdown-item" href="toasts"> Toasts </NavLink>
+                    <NavLink class="dropdown-item" href="typography">Typography</NavLink>
+                </div>
+            </div>
+        </div>
+    </li>
+</ul>
