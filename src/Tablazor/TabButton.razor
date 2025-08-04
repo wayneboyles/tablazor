@@ -1,0 +1,41 @@
+﻿@inherits TabComponentWithChildren
+
+@if (Visible)
+{
+    <TabDynamicElement HtmlTag="@GetHtmlTag()" class="@GetCssClass()" id="@GetId()" disabled="@IsDisabled" @onclick="@OnClickHandlerAsync" @attributes="Attributes">
+        @if (ButtonType is ButtonType.Button or ButtonType.Link)
+        {
+            @if (IsBusy && !string.IsNullOrWhiteSpace(BusyText))
+            {
+                <span class="spinner-border spinner-border-sm me-2" role="status"></span>
+                @BusyText
+            }
+            else
+            {
+                @if (!string.IsNullOrWhiteSpace(Icon))
+                {
+                    <TabIcon Icon="@Icon"/>
+                }
+
+                @if (!string.IsNullOrWhiteSpace(Avatar))
+                {
+                    <TabAvatar Src="@Avatar" />
+                }
+                
+                @if (!string.IsNullOrWhiteSpace(Text))
+                {
+                    @Text
+                }
+                else
+                {
+                    @ChildContent
+                }
+                
+                @if (ShowBadge)
+                {
+                    <span class="@GetBadgeCssClass()">@BadgeText</span>
+                }
+            }
+        }
+    </TabDynamicElement>
+}

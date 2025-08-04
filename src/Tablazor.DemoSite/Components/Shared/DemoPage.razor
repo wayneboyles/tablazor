@@ -1,0 +1,35 @@
+﻿@using Tablazor.DemoSite.Components.Layout
+@inherits LayoutComponentBase
+@implements IDisposable
+@inject DemoService DemoService
+@inject NavigationManager NavigationManager
+@layout MainLayout
+
+<PageTitle>@CurrentDemo.Name</PageTitle>
+
+<HeadContent>
+    <meta name="description" content="@CurrentDemo.Description">
+    <meta name="author" content="Wayne Boyles">
+    <meta property="og:title" content="@CurrentDemo.Name" />
+    <meta property="og:description" content="@CurrentDemo.Description" />
+    <meta property="og:site_name" content="Tabler Blazor Framework">
+</HeadContent>
+
+<div class="page-header d-print-none" aria-label="Page header">
+    <div class="container-xl">
+        <div class="row g-2 align-items-center">
+            <div class="col">
+                <div class="page-pretitle">@CurrentDemo.Description</div>
+                <h2 class="page-title">@CurrentDemo.Name</h2>
+            </div>
+        </div>
+    </div>
+</div>
+        
+<div class="page-body">
+    <div class="container-xl">
+        <CascadingValue Name="Demo" Value="@CurrentDemo">
+            @Body
+        </CascadingValue>
+    </div>
+</div>

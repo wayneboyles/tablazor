@@ -4,10 +4,17 @@ namespace Tablazor.Core
 {
     internal readonly struct StyleBuilder
     {
-        private readonly StringBuilder _builder = StringBuilderCache.Acquire();
+        private readonly StringBuilder _builder;
 
+        public StyleBuilder()
+        {
+            _builder = StringBuilderCache.Acquire();
+        }
+        
         private StyleBuilder(string prop, string value)
         {
+            _builder = StringBuilderCache.Acquire();
+            
             Add(prop, value);
         }
 

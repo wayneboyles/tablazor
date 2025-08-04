@@ -1,0 +1,19 @@
+﻿@inherits TabComponent
+
+@if (Visible)
+{
+    @if (!string.IsNullOrEmpty(GetColorString()))
+    {
+        <span class="@GetColorString()">
+            <svg @ref="@Element" xmlns="http://www.w3.org/2000/svg" width="@Width" height="@Height" viewBox="@GetViewBox()" @attributes="Attributes" fill="none" stroke="currentColor" stroke-width="@StrokeWidth" stroke-linecap="round" stroke-linejoin="round" class="@GetCssClass()" id="@GetId()">
+                @((MarkupString)Icon)        
+            </svg>    
+        </span>
+    }
+    else
+    {
+        <svg @ref="@Element" xmlns="http://www.w3.org/2000/svg" width="@Width" height="@Height" viewBox="@GetViewBox()" @attributes="Attributes" fill="none" stroke="currentColor" stroke-width="@StrokeWidth" stroke-linecap="round" stroke-linejoin="round" class="@GetCssClass()" id="@GetId()">
+            @((MarkupString)Icon)
+        </svg>    
+    }
+}

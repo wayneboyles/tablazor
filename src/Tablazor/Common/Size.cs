@@ -6,6 +6,9 @@ public enum Size
 {
     Default,
     
+    [CssClass("xs")]
+    ExtraSmall,
+    
     [CssClass("sm")]
     Small,
     
@@ -13,5 +16,8 @@ public enum Size
     Medium,
     
     [CssClass("lg")]
-    Large
+    Large,
+    
+    [CssClass("xl")]
+    ExtraLarge,
 }

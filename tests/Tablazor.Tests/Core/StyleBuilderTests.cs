@@ -6,19 +6,18 @@ using System.Threading.Tasks;
 using AwesomeAssertions;
 using Tablazor.Core;
 
-namespace Tablazor.Core
-{
-    public sealed class StyleBuilderTests : TestContext
-    {
-        [Fact]
-        public void Test()
-        {
-            var builder = StyleBuilder.Create()
-                .Add("prop", "value")
-                .ToString();
+namespace Tablazor.Core;
 
-            builder.Should()
-                .Be("prop:value;");
-        }
+public sealed class StyleBuilderTests : TestContext
+{
+    [Fact]
+    public void Test()
+    {
+        var builder = StyleBuilder.Create()
+            .Add("prop", "value")
+            .ToString();
+
+        builder.Should()
+            .Be("prop:value;");
     }
 }

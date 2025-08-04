@@ -1,0 +1,13 @@
+﻿@inherits TabComponentWithChildren
+
+@if (Visible)
+{
+    <span @ref="@Element" @attributes="Attributes" class="@GetCssClass()" id="@GetId()">
+        @if (!string.IsNullOrWhiteSpace(Icon))
+        {
+            <TabIcon Icon="@Icon" />
+        }
+        
+        @ChildContent
+    </span>
+}

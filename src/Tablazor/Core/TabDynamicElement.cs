@@ -3,7 +3,7 @@ using Microsoft.AspNetCore.Components.Rendering;
 
 namespace Tablazor.Core
 {
-    internal sealed class TabDynamicElement : TabComponentWithChildren
+    public sealed class TabDynamicElement : TabComponentWithChildren
     {
         /// <summary>
         /// The HTML tag of the element to render.
@@ -24,26 +24,26 @@ namespace Tablazor.Core
         {
             builder.OpenElement(0, HtmlTag);
 
-            builder.AddElementReferenceCapture(1, reference => Element = reference);
-
-            builder.AddMultipleAttributes(2, Attributes);
-
-            builder.AddAttribute(3, "id", GetId());
+            builder.AddAttribute(1, "id", GetId());
 
             var @class = GetCssClass();
             if (!string.IsNullOrWhiteSpace(@class))
             {
-                builder.AddAttribute(4, "class", @class);
+                builder.AddAttribute(2, "class", @class);
             }
 
             var style = GetStyle();
             if (!string.IsNullOrWhiteSpace(style))
             {
-                builder.AddAttribute(5, "style", style);
+                builder.AddAttribute(3, "style", style);
             }
 
-            builder.AddContent(6, ChildContent);
+            builder.AddMultipleAttributes(4, Attributes);
+            
+            builder.AddContent(5, ChildContent);
 
+            builder.AddElementReferenceCapture(6, reference => Element = reference);
+            
             builder.CloseElement();
         }
     }

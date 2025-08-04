@@ -67,6 +67,20 @@ namespace Tablazor.DemoSite.Services
                     Items = [
                         new Demo
                         {
+                            Name = "Avatars",
+                            Description = "Avatars",
+                            Href = "/avatars",
+                            IsNew = true
+                        },
+                        new Demo
+                        {
+                            Name = "Buttons",
+                            Description = "Buttons",
+                            Href = "/buttons",
+                            IsNew = true
+                        },
+                        new Demo
+                        {
                             Name = "Typography",
                             Description = "Text Features",
                             Href = "/typography",

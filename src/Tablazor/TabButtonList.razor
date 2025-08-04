@@ -1,0 +1,10 @@
+﻿@inherits TabComponentWithChildren
+
+@if (Visible)
+{
+    <CascadingValue Value="this" IsFixed="false">
+        <div @ref="@Element" @attributes="Attributes" class="@GetCssClass()" id="@GetId()">
+            @ChildContent
+        </div>
+    </CascadingValue>
+}

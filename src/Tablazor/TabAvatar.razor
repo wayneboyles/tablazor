@@ -1,0 +1,25 @@
+﻿@inherits TabComponent
+
+@if (Visible)
+{
+    <span @ref="@Element" @attributes="Attributes" class="@GetCssClass()" style="@GetStyle()" id="@GetId()">
+        @if (!string.IsNullOrWhiteSpace(Icon))
+        {
+            <TabIcon Icon="@Icon" />
+        }
+        else if (!string.IsNullOrWhiteSpace(Initials))
+        {
+            @Initials
+        }
+        
+        @if (ShowStatus)
+        {
+            <span class="@GetStatusIndicatorCssClass()">
+                @if (!string.IsNullOrWhiteSpace(StatusText))
+                {
+                    @StatusText
+                }
+            </span>
+        }
+    </span>
+}

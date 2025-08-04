@@ -1,0 +1,33 @@
+﻿@page "/Buttons"
+
+<div class="card">
+    <div class="card-body">
+        <TabButton ButtonType="ButtonType.Link" Text="Link"></TabButton>
+        <TabButton ButtonType="ButtonType.Button" Text="Button" Color="Colors.RedLight" ShowBadge="true" BadgeColor="Colors.Danger" BadgeText="12" BadgeStyle="BadgeStyle.Notification"></TabButton>
+        <TabButton ButtonType="ButtonType.Input" Text="Input"></TabButton>
+        <TabButton ButtonType="ButtonType.Submit" Text="Submit"></TabButton>
+        <TabButton ButtonType="ButtonType.Reset" Text="Reset"></TabButton>
+    </div>
+</div>
+
+<div class="card">
+    <div class="card-body">
+        
+        <div class="card-title">
+            <h3>Button Group</h3>
+        </div>
+        
+        <TabButtonGroup>
+            <TabButton Text="Left" BadgeText="12"></TabButton>
+            <TabButton Text="Middle" Avatar="/images/avatars/avatar3.png"></TabButton>
+            <TabButton Text="Right" IsBusy="true" BusyText="Right"></TabButton>
+        </TabButtonGroup>
+        
+        <TabButtonGroup Vertical="true">
+            <TabButton Text="Left"></TabButton>
+            <TabButton Text="Middle"></TabButton>
+            <TabButton Text="Right"></TabButton>
+        </TabButtonGroup>
+
+    </div>
+</div>
