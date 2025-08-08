@@ -36,9 +36,16 @@ public partial class TabCard : TabComponentWithChildren
     /// </summary>
     [Parameter]
     public bool StatusTop { get; set; }
+    
+    /// <summary>
+    /// Whether this card renders as a stack of cards
+    /// </summary>
+    [Parameter]
+    public bool Stacked { get; set; }
 
     private string GetStatusCssClass() => ClassBuilder
         .Create()
+        .Add("card-stacked", Stacked)
         .Add("card-status-top", StatusTop)
         .Add("card-status-start", StatusStart)
         .Add($"bg-{StatusColor.GetClassName()}", StatusColor != Colors.Default)
