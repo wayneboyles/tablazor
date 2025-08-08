@@ -69,14 +69,21 @@ namespace Tablazor.DemoSite.Services
                         {
                             Name = "Avatars",
                             Description = "Avatars",
-                            Href = "/avatars",
+                            Href = "avatars",
                             IsNew = true
                         },
                         new Demo
                         {
                             Name = "Buttons",
                             Description = "Buttons",
-                            Href = "/buttons",
+                            Href = "buttons",
+                            IsNew = true
+                        },
+                        new Demo
+                        {
+                            Name = "Cards",
+                            Description = "Cards",
+                            Href = "cards",
                             IsNew = true
                         },
                         new Demo

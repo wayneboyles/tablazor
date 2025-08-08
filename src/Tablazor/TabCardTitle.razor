@@ -1,0 +1,6 @@
+﻿@inherits TabComponentWithChildren
+
+@if (Visible)
+{
+    <TabText HtmlTag="HtmlTag.H3" @attributes="Attributes" class="@GetCssClass()">@ChildContent</TabText>
+}

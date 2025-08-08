@@ -1,0 +1,18 @@
+﻿@inherits TabComponentWithChildren
+
+@if (Visible)
+{
+    <div @ref="@Element" @attributes="Attributes" class="@GetCssClass()" style="@GetStyle()" id="@GetId()">
+        @if (StatusStart || StatusTop)
+        {
+            <div class="@GetStatusCssClass()"></div>
+        }
+        
+        @if (!string.IsNullOrWhiteSpace(Image))
+        {
+            <div class="img-responsive img-responsive-21x9 card-img-top" style="background-image: url(@Image)"></div>
+        }
+        
+        @ChildContent
+    </div>
+}
